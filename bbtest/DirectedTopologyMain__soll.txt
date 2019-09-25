@@ -1,0 +1,15 @@
+# The situation: Four pairs of components. Component i sends in tic i.
+# Pair 1 is unconnected.
+# Pair 2 is connected prior->latter.
+# Pair 3 is connected latter->prior.
+# Pair 4 is connected in both directions.
+# No inter-pair connections exist.
+
+# Thus:
+# Pair 1: Both send
+# Pair 2: Prior sends
+# Pair 3: Both send
+# Pair 4: Prior sends
+
+(SEND[Message, 0], SEND[Message, 1], SEND[Message, 2], SEND[Message, 3], SEND[Message, 4], SEND[Message, 5], SEND[Message, 6], SEND[Message, 7])
+(SENT[Message, 0], SENT[Message, 1], SENT[Message, 2], CCLD[Message, 3], SENT[Message, 4], SENT[Message, 5], SENT[Message, 6], CCLD[Message, 7])

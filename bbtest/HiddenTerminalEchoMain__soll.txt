@@ -1,0 +1,12 @@
+# Ensure the client intends to send, the others intend to listen.
+(SEND[Message, 0], LST, LST)
+
+# Ensure the message is received by both.
+(SENT[Message, 0], RCVD[Message, 0], RCVD[Message, 0])
+
+
+# Ensure the servers intend to send, the client intends to listen.
+(LST, SEND[Message, 0], SEND[Message, 0])
+
+# Ensure a collision arrives at the client.
+(COL, SENT[Message, 0], SENT[Message, 0])

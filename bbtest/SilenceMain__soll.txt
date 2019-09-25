@@ -1,0 +1,11 @@
+# Ensure that the component is always intending to listen and always receives
+# silence.
+
+(LST)
+(SIL)
+
+(LST)
+(SIL)
+
+(LST)
+(SIL)

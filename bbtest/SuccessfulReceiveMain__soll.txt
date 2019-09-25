@@ -1,0 +1,12 @@
+# Ensure the client intends to send, the other intends to listen.
+(SEND[Message, 0], LST)
+
+# Ensure the message is received by the server.
+(SENT[Message, 0], RCVD[Message, 0])
+
+
+# Ensure the server intends to send, the client intends to listen.
+(LST, SEND[Message, 0])
+
+# Ensure the message arrives at the client.
+(RCVD[Message, 0], SENT[Message, 0])

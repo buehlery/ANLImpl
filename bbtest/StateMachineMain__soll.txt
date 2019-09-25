@@ -1,0 +1,32 @@
+# A component that sends A, B, and C in succession using a state machine.
+# Initial sending of A is in tic 0. All other sendings in tic 5.
+
+(SEND[A, 0])
+(SENT[A, 0])
+
+(SEND[B, 5])
+(SENT[B, 5])
+
+(SEND[C, 5])
+(SENT[C, 5])
+
+(SEND[A, 5])
+(SENT[A, 5])
+
+(SEND[B, 5])
+(SENT[B, 5])
+
+(SEND[C, 5])
+(SENT[C, 5])
+
+(SEND[A, 5])
+(SENT[A, 5])
+
+(SEND[B, 5])
+(SENT[B, 5])
+
+(SEND[C, 5])
+(SENT[C, 5])
+
+(SEND[A, 5])
+(SENT[A, 5])

@@ -1,0 +1,298 @@
+# Ensure that there are ten slots `a 1 tic.
+<slotcount>10</slotcount>
+<ticsperslot>1</ticsperslot>
+
+# Ensure that all components are present.
+<component id="CircAB">
+<component id="CircBC">
+<component id="CircCA">
+
+# First slot: AB sends B.
+<slot num="0">
+<intention>
+  <for>CircAB</for>
+    <type>SEND</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>LST</type>
+  <for>CircCA</for>
+    <type>LST</type>
+<result>
+  <for>CircAB</for>
+    <type>SENT</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>RCVD</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>RCVD</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+
+# Second slot: BC sends C.
+<slot num="1">
+<intention>
+  <for>CircAB</for>
+    <type>LST</type>
+  <for>CircBC</for>
+    <type>SEND</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>LST</type>
+<result>
+  <for>CircAB</for>
+    <type>RCVD</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>SENT</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>RCVD</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+
+# Third slot: CA sends A.
+<slot num="2">
+<intention>
+  <for>CircAB</for>
+    <type>LST</type>
+  <for>CircBC</for>
+    <type>LST</type>
+  <for>CircCA</for>
+    <type>SEND</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+<result>
+  <for>CircAB</for>
+    <type>RCVD</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>RCVD</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>SENT</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+
+# Fourth slot: AB sends B.
+<slot num="3">
+<intention>
+  <for>CircAB</for>
+    <type>SEND</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>LST</type>
+  <for>CircCA</for>
+    <type>LST</type>
+<result>
+  <for>CircAB</for>
+    <type>SENT</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>RCVD</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>RCVD</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+
+# Fifth slot: BC sends C.
+<slot num="4">
+<intention>
+  <for>CircAB</for>
+    <type>LST</type>
+  <for>CircBC</for>
+    <type>SEND</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>LST</type>
+<result>
+  <for>CircAB</for>
+    <type>RCVD</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>SENT</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>RCVD</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+
+# Sixth slot: CA sends A.
+<slot num="5">
+<intention>
+  <for>CircAB</for>
+    <type>LST</type>
+  <for>CircBC</for>
+    <type>LST</type>
+  <for>CircCA</for>
+    <type>SEND</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+<result>
+  <for>CircAB</for>
+    <type>RCVD</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>RCVD</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>SENT</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+
+# Seventh slot: AB sends B.
+<slot num="6">
+<intention>
+  <for>CircAB</for>
+    <type>SEND</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>LST</type>
+  <for>CircCA</for>
+    <type>LST</type>
+<result>
+  <for>CircAB</for>
+    <type>SENT</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>RCVD</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>RCVD</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+
+# Eighth slot: BC sends C.
+<slot num="7">
+<intention>
+  <for>CircAB</for>
+    <type>LST</type>
+  <for>CircBC</for>
+    <type>SEND</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>LST</type>
+<result>
+  <for>CircAB</for>
+    <type>RCVD</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>SENT</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>RCVD</type>
+    <msg>
+      <name>C</name>
+    <tic>0</tic>
+
+# Ninth slot: CA sends A.
+<slot num="8">
+<intention>
+  <for>CircAB</for>
+    <type>LST</type>
+  <for>CircBC</for>
+    <type>LST</type>
+  <for>CircCA</for>
+    <type>SEND</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+<result>
+  <for>CircAB</for>
+    <type>RCVD</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>RCVD</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>SENT</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+
+# Tenth slot: AB sends B.
+<slot num="9">
+<intention>
+  <for>CircAB</for>
+    <type>SEND</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>LST</type>
+  <for>CircCA</for>
+    <type>LST</type>
+<result>
+  <for>CircAB</for>
+    <type>SENT</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircBC</for>
+    <type>RCVD</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>
+  <for>CircCA</for>
+    <type>RCVD</type>
+    <msg>
+      <name>B</name>
+    <tic>0</tic>

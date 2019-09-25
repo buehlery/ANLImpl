@@ -1,0 +1,238 @@
+[ INFO ] ******************** ANL-Impl ANL simulator v0.1.0 ********************
+[ INFO ] This is free and unencumbered software released into the public domain.
+[ INFO ] For the full license text, visit <https://unlicense.org/>
+[ INFO ] ***********************************************************************
+[ INFO ]
+[ INFO ] Starting ANL-Impl ANL simulator.
+[ INFO ] Simulating 120 slots.
+[ INFO ] Running network protocol for slot 0.
+[ INFO ] Running network protocol for slot 1.
+[ INFO ] Running network protocol for slot 2.
+[ INFO ] Running network protocol for slot 3.
+[ INFO ] Running network protocol for slot 4.
+[ INFO ] Running network protocol for slot 5.
+[ INFO ] Running network protocol for slot 6.
+[ INFO ] Running network protocol for slot 7.
+[ INFO ] Running network protocol for slot 8.
+[ INFO ] Running network protocol for slot 9.
+[ INFO ] Running network protocol for slot 10.
+[ INFO ] Running network protocol for slot 11.
+[ INFO ] Running network protocol for slot 12.
+[ INFO ] Running network protocol for slot 13.
+[ INFO ] Running network protocol for slot 14.
+[ INFO ] Running network protocol for slot 15.
+[ INFO ] Running network protocol for slot 16.
+[ INFO ] Running network protocol for slot 17.
+[ PROT ] Log: Repeater5: added alarm to stack: Sensor0
+[ INFO ] Running network protocol for slot 18.
+[ INFO ] Running network protocol for slot 19.
+[ PROT ] Log: Repeater4: added alarm to stack: Sensor0
+[ INFO ] Running network protocol for slot 20.
+[ PROT ] Log: Repeater5: latest alarm marked as done
+[ INFO ] Running network protocol for slot 21.
+[ PROT ] Log: Repeater3: added alarm to stack: Sensor0
+[ INFO ] Running network protocol for slot 22.
+[ PROT ] Log: Repeater4: latest alarm marked as done
+[ INFO ] Running network protocol for slot 23.
+[ PROT ] Log: Repeater2: added alarm to stack: Sensor0
+[ INFO ] Running network protocol for slot 24.
+[ PROT ] Log: Repeater3: latest alarm marked as done
+[ INFO ] Running network protocol for slot 25.
+[ PROT ] Log: Repeater1: added alarm to stack: Sensor0
+[ PROT ] Log: Repeater5: added alarm to stack: Sensor2
+[ INFO ] Running network protocol for slot 26.
+[ PROT ] Log: Repeater2: latest alarm marked as done
+[ INFO ] Running network protocol for slot 27.
+[ PROT ] Log: Alarm: Sensor0
+[ PROT ] Log: Repeater4: added alarm to stack: Sensor2
+[ INFO ] Running network protocol for slot 28.
+[ PROT ] Log: Repeater1: latest alarm marked as done
+[ PROT ] Log: Repeater5: latest alarm marked as done
+[ INFO ] Running network protocol for slot 29.
+[ PROT ] Log: Repeater3: added alarm to stack: Sensor2
+[ INFO ] Running network protocol for slot 30.
+[ PROT ] Log: Repeater4: latest alarm marked as done
+[ INFO ] Running network protocol for slot 31.
+[ PROT ] Log: Repeater2: added alarm to stack: Sensor2
+[ INFO ] Running network protocol for slot 32.
+[ PROT ] Log: Repeater3: latest alarm marked as done
+[ INFO ] Running network protocol for slot 33.
+[ PROT ] Log: Repeater1: added alarm to stack: Sensor2
+[ INFO ] Running network protocol for slot 34.
+[ PROT ] Log: Repeater2: latest alarm marked as done
+[ INFO ] Running network protocol for slot 35.
+[ PROT ] Log: Alarm: Sensor2
+[ PROT ] Log: Repeater5: added alarm to stack: Sensor4
+[ INFO ] Running network protocol for slot 36.
+[ PROT ] Log: Repeater1: latest alarm marked as done
+[ INFO ] Running network protocol for slot 37.
+[ PROT ] Log: Repeater4: added alarm to stack: Sensor4
+[ INFO ] Running network protocol for slot 38.
+[ PROT ] Log: Repeater5: latest alarm marked as done
+[ INFO ] Running network protocol for slot 39.
+[ PROT ] Log: Repeater3: added alarm to stack: Sensor4
+[ INFO ] Running network protocol for slot 40.
+[ PROT ] Log: Repeater4: latest alarm marked as done
+[ INFO ] Running network protocol for slot 41.
+[ PROT ] Log: Repeater2: added alarm to stack: Sensor4
+[ INFO ] Running network protocol for slot 42.
+[ PROT ] Log: Repeater3: latest alarm marked as done
+[ INFO ] Running network protocol for slot 43.
+[ PROT ] Log: Repeater1: added alarm to stack: Sensor4
+[ PROT ] Log: Repeater5: added alarm to stack: Sensor6
+[ INFO ] Running network protocol for slot 44.
+[ PROT ] Log: Repeater2: latest alarm marked as done
+[ INFO ] Running network protocol for slot 45.
+[ PROT ] Log: Alarm: Sensor4
+[ PROT ] Log: Repeater4: added alarm to stack: Sensor6
+[ INFO ] Running network protocol for slot 46.
+[ PROT ] Log: Repeater1: latest alarm marked as done
+[ PROT ] Log: Repeater5: latest alarm marked as done
+[ INFO ] Running network protocol for slot 47.
+[ PROT ] Log: Repeater3: added alarm to stack: Sensor6
+[ INFO ] Running network protocol for slot 48.
+[ PROT ] Log: Repeater4: latest alarm marked as done
+[ INFO ] Running network protocol for slot 49.
+[ PROT ] Log: Repeater2: added alarm to stack: Sensor6
+[ INFO ] Running network protocol for slot 50.
+[ PROT ] Log: Repeater3: latest alarm marked as done
+[ INFO ] Running network protocol for slot 51.
+[ PROT ] Log: Repeater1: added alarm to stack: Sensor6
+[ INFO ] Running network protocol for slot 52.
+[ PROT ] Log: Repeater2: latest alarm marked as done
+[ INFO ] Running network protocol for slot 53.
+[ PROT ] Log: Alarm: Sensor6
+[ INFO ] Running network protocol for slot 54.
+[ PROT ] Log: Repeater1: latest alarm marked as done
+[ INFO ] Running network protocol for slot 55.
+[ PROT ] Log: Repeater5: added alarm to stack: Sensor8
+[ INFO ] Running network protocol for slot 56.
+[ INFO ] Running network protocol for slot 57.
+[ PROT ] Log: Repeater4: added alarm to stack: Sensor8
+[ INFO ] Running network protocol for slot 58.
+[ PROT ] Log: Repeater5: latest alarm marked as done
+[ INFO ] Running network protocol for slot 59.
+[ PROT ] Log: Repeater3: added alarm to stack: Sensor8
+[ INFO ] Running network protocol for slot 60.
+[ PROT ] Log: Repeater4: latest alarm marked as done
+[ INFO ] Running network protocol for slot 61.
+[ PROT ] Log: Repeater2: added alarm to stack: Sensor8
+[ INFO ] Running network protocol for slot 62.
+[ PROT ] Log: Repeater3: latest alarm marked as done
+[ INFO ] Running network protocol for slot 63.
+[ PROT ] Log: Repeater1: added alarm to stack: Sensor8
+[ INFO ] Running network protocol for slot 64.
+[ PROT ] Log: Repeater2: latest alarm marked as done
+[ INFO ] Running network protocol for slot 65.
+[ PROT ] Log: Alarm: Sensor8
+[ INFO ] Running network protocol for slot 66.
+[ PROT ] Log: Repeater1: latest alarm marked as done
+[ INFO ] Running network protocol for slot 67.
+[ INFO ] Running network protocol for slot 68.
+[ INFO ] Running network protocol for slot 69.
+[ INFO ] Running network protocol for slot 70.
+[ INFO ] Running network protocol for slot 71.
+[ INFO ] Running network protocol for slot 72.
+[ INFO ] Running network protocol for slot 73.
+[ INFO ] Running network protocol for slot 74.
+[ INFO ] Running network protocol for slot 75.
+[ PROT ] Log: Repeater5: added alarm to stack: Sensor1
+[ INFO ] Running network protocol for slot 76.
+[ INFO ] Running network protocol for slot 77.
+[ PROT ] Log: Repeater4: added alarm to stack: Sensor1
+[ INFO ] Running network protocol for slot 78.
+[ PROT ] Log: Repeater5: latest alarm marked as done
+[ INFO ] Running network protocol for slot 79.
+[ PROT ] Log: Repeater3: added alarm to stack: Sensor1
+[ INFO ] Running network protocol for slot 80.
+[ PROT ] Log: Repeater4: latest alarm marked as done
+[ INFO ] Running network protocol for slot 81.
+[ PROT ] Log: Repeater2: added alarm to stack: Sensor1
+[ PROT ] Log: Repeater5: added alarm to stack: Sensor3
+[ INFO ] Running network protocol for slot 82.
+[ PROT ] Log: Repeater3: latest alarm marked as done
+[ INFO ] Running network protocol for slot 83.
+[ PROT ] Log: Repeater1: added alarm to stack: Sensor1
+[ PROT ] Log: Repeater4: added alarm to stack: Sensor3
+[ INFO ] Running network protocol for slot 84.
+[ PROT ] Log: Repeater2: latest alarm marked as done
+[ PROT ] Log: Repeater5: latest alarm marked as done
+[ INFO ] Running network protocol for slot 85.
+[ PROT ] Log: Alarm: Sensor1
+[ PROT ] Log: Repeater3: added alarm to stack: Sensor3
+[ INFO ] Running network protocol for slot 86.
+[ PROT ] Log: Repeater1: latest alarm marked as done
+[ PROT ] Log: Repeater4: latest alarm marked as done
+[ INFO ] Running network protocol for slot 87.
+[ PROT ] Log: Repeater2: added alarm to stack: Sensor3
+[ PROT ] Log: Repeater5: added alarm to stack: Sensor5
+[ INFO ] Running network protocol for slot 88.
+[ PROT ] Log: Repeater3: latest alarm marked as done
+[ INFO ] Running network protocol for slot 89.
+[ PROT ] Log: Repeater1: added alarm to stack: Sensor3
+[ PROT ] Log: Repeater4: added alarm to stack: Sensor5
+[ INFO ] Running network protocol for slot 90.
+[ PROT ] Log: Repeater2: latest alarm marked as done
+[ PROT ] Log: Repeater5: latest alarm marked as done
+[ INFO ] Running network protocol for slot 91.
+[ PROT ] Log: Alarm: Sensor3
+[ PROT ] Log: Repeater3: added alarm to stack: Sensor5
+[ INFO ] Running network protocol for slot 92.
+[ PROT ] Log: Repeater1: latest alarm marked as done
+[ PROT ] Log: Repeater4: latest alarm marked as done
+[ INFO ] Running network protocol for slot 93.
+[ PROT ] Log: Repeater2: added alarm to stack: Sensor5
+[ PROT ] Log: Repeater5: added alarm to stack: Sensor7
+[ INFO ] Running network protocol for slot 94.
+[ PROT ] Log: Repeater3: latest alarm marked as done
+[ INFO ] Running network protocol for slot 95.
+[ PROT ] Log: Repeater1: added alarm to stack: Sensor5
+[ PROT ] Log: Repeater4: added alarm to stack: Sensor7
+[ INFO ] Running network protocol for slot 96.
+[ PROT ] Log: Repeater2: latest alarm marked as done
+[ PROT ] Log: Repeater5: latest alarm marked as done
+[ INFO ] Running network protocol for slot 97.
+[ PROT ] Log: Alarm: Sensor5
+[ PROT ] Log: Repeater3: added alarm to stack: Sensor7
+[ INFO ] Running network protocol for slot 98.
+[ PROT ] Log: Repeater1: latest alarm marked as done
+[ PROT ] Log: Repeater4: latest alarm marked as done
+[ INFO ] Running network protocol for slot 99.
+[ PROT ] Log: Repeater2: added alarm to stack: Sensor7
+[ PROT ] Log: Repeater5: added alarm to stack: Sensor9
+[ INFO ] Running network protocol for slot 100.
+[ PROT ] Log: Repeater3: latest alarm marked as done
+[ INFO ] Running network protocol for slot 101.
+[ PROT ] Log: Repeater1: added alarm to stack: Sensor7
+[ PROT ] Log: Repeater4: added alarm to stack: Sensor9
+[ INFO ] Running network protocol for slot 102.
+[ PROT ] Log: Repeater2: latest alarm marked as done
+[ PROT ] Log: Repeater5: latest alarm marked as done
+[ INFO ] Running network protocol for slot 103.
+[ PROT ] Log: Alarm: Sensor7
+[ PROT ] Log: Repeater3: added alarm to stack: Sensor9
+[ INFO ] Running network protocol for slot 104.
+[ PROT ] Log: Repeater1: latest alarm marked as done
+[ PROT ] Log: Repeater4: latest alarm marked as done
+[ INFO ] Running network protocol for slot 105.
+[ PROT ] Log: Repeater2: added alarm to stack: Sensor9
+[ INFO ] Running network protocol for slot 106.
+[ PROT ] Log: Repeater3: latest alarm marked as done
+[ INFO ] Running network protocol for slot 107.
+[ PROT ] Log: Repeater1: added alarm to stack: Sensor9
+[ INFO ] Running network protocol for slot 108.
+[ PROT ] Log: Repeater2: latest alarm marked as done
+[ INFO ] Running network protocol for slot 109.
+[ PROT ] Log: Alarm: Sensor9
+[ INFO ] Running network protocol for slot 110.
+[ PROT ] Log: Repeater1: latest alarm marked as done
+[ INFO ] Running network protocol for slot 111.
+[ INFO ] Running network protocol for slot 112.
+[ INFO ] Running network protocol for slot 113.
+[ INFO ] Running network protocol for slot 114.
+[ INFO ] Running network protocol for slot 115.
+[ INFO ] Running network protocol for slot 116.
+[ INFO ] Running network protocol for slot 117.
+[ INFO ] Running network protocol for slot 118.
+[ INFO ] Running network protocol for slot 119.
+[ INFO ] Simulation completed in 118ms.

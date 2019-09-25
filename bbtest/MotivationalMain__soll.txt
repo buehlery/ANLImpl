@@ -1,0 +1,6 @@
+# Ensure that everyone intends to send.
+(SEND[Message, 0], SEND[Message, 1], SEND[Message, 2])
+
+# Ensure that only the first and the last component send, like in the example
+# in the report.
+(SENT[Message, 0], CCLD[Message, 1], SENT[Message, 2])

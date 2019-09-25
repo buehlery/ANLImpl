@@ -1,0 +1,31 @@
+@startuml
+enum ActionType {
+  IDLE
+  SILENCE
+  COLLISION
+  RECEIVED
+  SENT
+  CANCELLED
+}
+enum IntentionType {
+  IDLE
+  LISTEN
+  SEND
+  SEND_FORCE
+}
+class ComponentTrait<Type> {
+  +ComponentTrait(setup: NetworkSetup, type: Type, tic: uint, msg: Message)
+  +getType(): Type
+  +getTic(): uint
+  +getMessage(): Message
+}
+class TraitMapping<Type> {
+  +TraitMapping(setup: NetworkSetup)
+  +getTraitFor(comp: Component): ComponentTrait<Type>
+  +setTraitFor(comp: Component, trait: ComponentTrait<Type>)
+  +isPartial(): bool
+}
+
+TraitMapping o-- "0..*" ComponentTrait
+IntentionType -up[hidden]-> ActionType
+@enduml

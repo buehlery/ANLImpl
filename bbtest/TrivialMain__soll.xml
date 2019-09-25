@@ -1,0 +1,58 @@
+# Ensure that there are five slots `a 20 tics.
+<slotcount>5</slotcount>
+<ticsperslot>20</ticsperslot>
+
+# Ensure that one component is present.
+<component id="default">
+
+# Ensure that the component idles and intends to idle in slots 0 through 4.
+
+<slot num="0">
+<intention>
+  <for>default</for>
+    <type>IDL</type>
+</intention>
+<result>
+  <for>default</for>
+    <type>IDL</type>
+</result>
+
+<slot num="1">
+<intention>
+  <for>default</for>
+    <type>IDL</type>
+</intention>
+<result>
+  <for>default</for>
+    <type>IDL</type>
+</result>
+
+<slot num="2">
+<intention>
+  <for>default</for>
+    <type>IDL</type>
+</intention>
+<result>
+  <for>default</for>
+    <type>IDL</type>
+</result>
+
+<slot num="3">
+<intention>
+  <for>default</for>
+    <type>IDL</type>
+</intention>
+<result>
+  <for>default</for>
+    <type>IDL</type>
+</result>
+
+<slot num="4">
+<intention>
+  <for>default</for>
+    <type>IDL</type>
+</intention>
+<result>
+  <for>default</for>
+    <type>IDL</type>
+</result>

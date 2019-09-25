@@ -1,0 +1,38 @@
+# Ensure that there are three slots with one tic.
+<slotcount>3</slotcount>
+<ticsperslot>1</ticsperslot>
+
+# Ensure that the component is present.
+<component id="EchoServer">
+
+# The topology is not interesting in this case.
+
+# Ensure that the intention in every slot is listening and that the result is
+# always silence.
+
+<intention>
+  <for>EchoServer</for>
+    <type>LST</type>
+</intention>
+<result>
+  <for>EchoServer</for>
+    <type>SIL</type>
+</result>
+
+<intention>
+  <for>EchoServer</for>
+    <type>LST</type>
+</intention>
+<result>
+  <for>EchoServer</for>
+    <type>SIL</type>
+</result>
+
+<intention>
+  <for>EchoServer</for>
+    <type>LST</type>
+</intention>
+<result>
+  <for>EchoServer</for>
+    <type>SIL</type>
+</result>

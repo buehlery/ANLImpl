@@ -1,0 +1,66 @@
+@startuml
+class Message {
+}
+enum ActionType {
+  IDLE
+  SILENCE
+  COLLISION
+  RECEIVED
+  SENT
+  CANCELLED
+}
+class ComponentAction {
+  -tic: int
+  -type: ActionType
+  -message: Message[0..1]
+}
+class ComponentIntention {
+  -tic: int
+  -type: IntentionType
+  -message: Message[0..1]
+}
+enum IntentionType {
+  IDLE
+  LISTEN
+  SEND
+  SEND_FORCE
+}
+class NetworkState {
+  +getTraitFor(comp: Component): ComponentAction
+  +setTraitFor(comp: Component, action: ComponentAction)
+}
+class IntentionAssignment {
+  +getTraitFor(comp: Component): ComponentIntention
+  +setTraitFor(comp: Component, intent: ComponentIntention)
+}
+class NetworkSetup {
+  -ticsPerSlot: int
+  -messages: Message[1..*]
+  -components: Component[1..*]
+}
+class Component {
+}
+class NetworkTopology {
+  +canReach(sndr: Component, rcvr: Component): bool
+}
+enum ANLSemantics {
+  CANONICAL
+  NAIVE
+}
+class ANL {
+  -setup: NetworkSetup
+  -semantics: ANLSemantics
+  +transition(topo: NetworkTopology, intent: IntentionAssignment): NetworkState[1..*]
+}
+
+ComponentAction o-- "0..1" Message
+ComponentIntention o-- "0..1" Message
+NetworkSetup o-- "1..*" Message
+ANL o-- "1" NetworkSetup
+ANL o-- "1" ANLSemantics
+NetworkSetup o-- "1..*" Component
+NetworkState o-- "1..*" ComponentAction
+ComponentAction o-- "1" ActionType
+IntentionAssignment o-- "1..*" ComponentIntention
+ComponentIntention o-- "1" IntentionType
+@enduml

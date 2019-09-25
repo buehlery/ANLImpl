@@ -1,0 +1,17 @@
+# Ensure that the component intends to idle and idles in 5 slots.
+
+(IDL)
+(IDL)
+
+(IDL)
+(IDL)
+
+(IDL)
+(IDL)
+
+(IDL)
+(IDL)
+
+(IDL)
+(IDL)
+

@@ -1,0 +1,159 @@
+# Ensure that there are ten slots `a 10 tics.
+<slotcount>10</slotcount>
+<ticsperslot>10</ticsperslot>
+
+# Ensure that the component is present.
+<component id="Sender">
+
+# Ensure that the component sends the correct messages. See the .txt file for
+# details.
+
+# First slot: A, 0.
+<slot num="0">
+<intention>
+  <for>Sender</for>
+    <type>SEND</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+<result>
+  <for>Sender</for>
+    <type>SENT</type>
+    <msg>
+      <name>A</name>
+    <tic>0</tic>
+
+# Second slot: B, 5.
+<slot num="1">
+<intention>
+  <for>Sender</for>
+    <type>SEND</type>
+    <msg>
+      <name>B</name>
+    <tic>5</tic>
+<result>
+  <for>Sender</for>
+    <type>SENT</type>
+    <msg>
+      <name>B</name>
+    <tic>5</tic>
+
+# Third slot: C, 5.
+<slot num="2">
+<intention>
+  <for>Sender</for>
+    <type>SEND</type>
+    <msg>
+      <name>C</name>
+    <tic>5</tic>
+<result>
+  <for>Sender</for>
+    <type>SENT</type>
+    <msg>
+      <name>C</name>
+    <tic>5</tic>
+
+# Fourth slot: A, 5.
+<slot num="3">
+<intention>
+  <for>Sender</for>
+    <type>SEND</type>
+    <msg>
+      <name>A</name>
+    <tic>5</tic>
+<result>
+  <for>Sender</for>
+    <type>SENT</type>
+    <msg>
+      <name>A</name>
+    <tic>5</tic>
+
+# Fifth slot: B, 5.
+<slot num="4">
+<intention>
+  <for>Sender</for>
+    <type>SEND</type>
+    <msg>
+      <name>B</name>
+    <tic>5</tic>
+<result>
+  <for>Sender</for>
+    <type>SENT</type>
+    <msg>
+      <name>B</name>
+    <tic>5</tic>
+
+# Sixth slot: C, 5.
+<slot num="5">
+<intention>
+  <for>Sender</for>
+    <type>SEND</type>
+    <msg>
+      <name>C</name>
+    <tic>5</tic>
+<result>
+  <for>Sender</for>
+    <type>SENT</type>
+    <msg>
+      <name>C</name>
+    <tic>5</tic>
+
+# Seventh slot: A, 5.
+<slot num="6">
+<intention>
+  <for>Sender</for>
+    <type>SEND</type>
+    <msg>
+      <name>A</name>
+    <tic>5</tic>
+<result>
+  <for>Sender</for>
+    <type>SENT</type>
+    <msg>
+      <name>A</name>
+    <tic>5</tic>
+
+# Eighth slot: B, 5.
+<slot num="7">
+<intention>
+  <for>Sender</for>
+    <type>SEND</type>
+    <msg>
+      <name>B</name>
+    <tic>5</tic>
+<result>
+  <for>Sender</for>
+    <type>SENT</type>
+    <msg>
+      <name>B</name>
+    <tic>5</tic>
+
+# Ninth slot: C, 5.
+<slot num="8">
+<intention>
+  <for>Sender</for>
+    <type>SEND</type>
+    <msg>
+      <name>C</name>
+    <tic>5</tic>
+<result>
+  <for>Sender</for>
+    <type>SENT</type>
+    <msg>
+      <name>C</name>
+    <tic>5</tic>
+
+# Tenth slot: A, 5.
+<slot num="9">
+<intention>
+  <for>Sender</for>
+    <type>SEND</type>
+    <msg>
+      <name>A</name>
+    <tic>5</tic>
+<result>
+  <for>Sender</for>
+    <type>SENT</type>
+    <msg>
+      <name>A</name>
+    <tic>5</tic>

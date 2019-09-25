@@ -1,0 +1,19 @@
+@startuml
+class ANLView {
+  -mSlot: uint
+  -mComponent: Component
+  -mTargetAssignment: IntentionAssignment
+  +idle()
+  +send(msg: Message, tic: uint, sensing: bool)
+  +listen()
+  +getPreviousAction(): ComponentAction
+  +hasPreviousAction(): bool
+  +getSlotNumber(): uint
+  +hasActed(): bool
+}
+class Component {
+  +onAct(view: ANLView)
+}
+
+ANLView o-right- "1" Component
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+participant "Operating System" as OS
+participant "ANL-Impl" as ANL
+participant "Simulation Code" as Sim
+
+OS -> ANL: Entry point "main(int, char**)"
+ANL -> Sim: Entry point "ANLIMPL_MAIN(int, char**)"
+Sim -> ANL: Run Simulation Using ANL
+... Protocol callbacks ...
+ANL -> Sim: Return of Control
+Sim -> ANL: Simulation Exit
+ANL -> OS: Program Exit
+@enduml

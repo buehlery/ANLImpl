@@ -1,0 +1,13 @@
+@startuml
+class Component {
+  -doAct(view: ANLView)
+}
+class StateMachineComponent<StateType> {
+  -mState: StateType
+  +StateMachineComponent(initial: StateType)
+  +getState(): StateType
+  -doAct(view: ANLView)
+  -doStateAct(view: ANLView, current: StateType): StateType
+}
+StateMachineComponent -up-|> Component
+@enduml

@@ -1,0 +1,28 @@
+@startuml
+class NetworkSetup {
+  -mTicsPerSlot: uint
+  -mMessages: Message[0..*]
+  -mComponents: Component[0..*]
+  +NetworkSetup(ticsPerSlot: uint)
+  +registerMessage(msg: Message)
+  +registerComponent(comp: Component)
+  +isMessage(msg: Message): bool
+  +isComponent(comp: Component): bool
+  +forEachComponent(cb: void(Component))
+  +getComponentCount(): uint
+  +getTicsPerSlot(): uint
+}
+class Message {
+  -doToString(): string
+  -doToXML(): string[0..*]
+  -equals(other: Message): bool
+}
+class Component {
+  -doAct(view: ANLView)
+  -doGetId(): string
+  -doToXML(): string[0..*]
+  -equals(other: Component): bool
+}
+NetworkSetup o-left- "0..*" Message
+NetworkSetup o-right- "0..*" Component
+@enduml

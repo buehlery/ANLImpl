@@ -1,0 +1,45 @@
+# Three messages, A, B, and C.
+# Three components, AB, BC, and CA. AB starts sending B. Component XY sends Y if
+# it received X.
+# All components can hear each other. Components listen if they are not sending.
+# The simulation runs for 10 slots.
+
+# First slot: AB sends B.
+(SEND[B, 0], LST, LST)
+(SENT[B, 0], RCVD[B, 0], RCVD[B, 0])
+
+# Second slot: BC sends C.
+(LST, SEND[C, 0], LST)
+(RCVD[C, 0], SENT[C, 0], RCVD[C, 0])
+
+# Third slot: CA sends A.
+(LST, LST, SEND[A, 0])
+(RCVD[A, 0], RCVD[A, 0], SENT[A, 0])
+
+# Fourth slot: AB sends B.
+(SEND[B, 0], LST, LST)
+(SENT[B, 0], RCVD[B, 0], RCVD[B, 0])
+
+# Fifth slot: BC sends C.
+(LST, SEND[C, 0], LST)
+(RCVD[C, 0], SENT[C, 0], RCVD[C, 0])
+
+# Sixth slot: CA sends A.
+(LST, LST, SEND[A, 0])
+(RCVD[A, 0], RCVD[A, 0], SENT[A, 0])
+
+# Seventh slot: AB sends B.
+(SEND[B, 0], LST, LST)
+(SENT[B, 0], RCVD[B, 0], RCVD[B, 0])
+
+# Eighth slot: BC sends C.
+(LST, SEND[C, 0], LST)
+(RCVD[C, 0], SENT[C, 0], RCVD[C, 0])
+
+# Ninth slot: CA sends A.
+(LST, LST, SEND[A, 0])
+(RCVD[A, 0], RCVD[A, 0], SENT[A, 0])
+
+# Tenth slot: AB sends B.
+(SEND[B, 0], LST, LST)
+(SENT[B, 0], RCVD[B, 0], RCVD[B, 0])

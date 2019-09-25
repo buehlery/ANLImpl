@@ -1,0 +1,191 @@
+(IDL, IDL)
+(IDL, IDL)
+
+(LST, IDL)
+(SIL, IDL)
+
+(SEND[Message, 3], IDL)
+(SENT[Message, 3], IDL)
+
+(SEND![Message, 3], IDL)
+(SENT[Message, 3], IDL)
+
+(SEND[Message, 6], IDL)
+(SENT[Message, 6], IDL)
+
+(SEND![Message, 6], IDL)
+(SENT[Message, 6], IDL)
+
+(SEND[Message, 9], IDL)
+(SENT[Message, 9], IDL)
+
+(SEND![Message, 9], IDL)
+(SENT[Message, 9], IDL)
+
+(IDL, LST)
+(IDL, SIL)
+
+(LST, LST)
+(SIL, SIL)
+
+(SEND[Message, 3], LST)
+(SENT[Message, 3], SIL)
+
+(SEND![Message, 3], LST)
+(SENT[Message, 3], SIL)
+
+(SEND[Message, 6], LST)
+(SENT[Message, 6], SIL)
+
+(SEND![Message, 6], LST)
+(SENT[Message, 6], SIL)
+
+(SEND[Message, 9], LST)
+(SENT[Message, 9], SIL)
+
+(SEND![Message, 9], LST)
+(SENT[Message, 9], SIL)
+
+(IDL, SEND[Message, 3])
+(IDL, SENT[Message, 3])
+
+(LST, SEND[Message, 3])
+(SIL, SENT[Message, 3])
+
+(SEND[Message, 3], SEND[Message, 3])
+(SENT[Message, 3], SENT[Message, 3])
+
+(SEND![Message, 3], SEND[Message, 3])
+(SENT[Message, 3], SENT[Message, 3])
+
+(SEND[Message, 6], SEND[Message, 3])
+(SENT[Message, 6], SENT[Message, 3])
+
+(SEND![Message, 6], SEND[Message, 3])
+(SENT[Message, 6], SENT[Message, 3])
+
+(SEND[Message, 9], SEND[Message, 3])
+(SENT[Message, 9], SENT[Message, 3])
+
+(SEND![Message, 9], SEND[Message, 3])
+(SENT[Message, 9], SENT[Message, 3])
+
+(IDL, SEND![Message, 3])
+(IDL, SENT[Message, 3])
+
+(LST, SEND![Message, 3])
+(SIL, SENT[Message, 3])
+
+(SEND[Message, 3], SEND![Message, 3])
+(SENT[Message, 3], SENT[Message, 3])
+
+(SEND![Message, 3], SEND![Message, 3])
+(SENT[Message, 3], SENT[Message, 3])
+
+(SEND[Message, 6], SEND![Message, 3])
+(SENT[Message, 6], SENT[Message, 3])
+
+(SEND![Message, 6], SEND![Message, 3])
+(SENT[Message, 6], SENT[Message, 3])
+
+(SEND[Message, 9], SEND![Message, 3])
+(SENT[Message, 9], SENT[Message, 3])
+
+(SEND![Message, 9], SEND![Message, 3])
+(SENT[Message, 9], SENT[Message, 3])
+
+(IDL, SEND[Message, 6])
+(IDL, SENT[Message, 6])
+
+(LST, SEND[Message, 6])
+(SIL, SENT[Message, 6])
+
+(SEND[Message, 3], SEND[Message, 6])
+(SENT[Message, 3], SENT[Message, 6])
+
+(SEND![Message, 3], SEND[Message, 6])
+(SENT[Message, 3], SENT[Message, 6])
+
+(SEND[Message, 6], SEND[Message, 6])
+(SENT[Message, 6], SENT[Message, 6])
+
+(SEND![Message, 6], SEND[Message, 6])
+(SENT[Message, 6], SENT[Message, 6])
+
+(SEND[Message, 9], SEND[Message, 6])
+(SENT[Message, 9], SENT[Message, 6])
+
+(SEND![Message, 9], SEND[Message, 6])
+(SENT[Message, 9], SENT[Message, 6])
+
+(IDL, SEND![Message, 6])
+(IDL, SENT[Message, 6])
+
+(LST, SEND![Message, 6])
+(SIL, SENT[Message, 6])
+
+(SEND[Message, 3], SEND![Message, 6])
+(SENT[Message, 3], SENT[Message, 6])
+
+(SEND![Message, 3], SEND![Message, 6])
+(SENT[Message, 3], SENT[Message, 6])
+
+(SEND[Message, 6], SEND![Message, 6])
+(SENT[Message, 6], SENT[Message, 6])
+
+(SEND![Message, 6], SEND![Message, 6])
+(SENT[Message, 6], SENT[Message, 6])
+
+(SEND[Message, 9], SEND![Message, 6])
+(SENT[Message, 9], SENT[Message, 6])
+
+(SEND![Message, 9], SEND![Message, 6])
+(SENT[Message, 9], SENT[Message, 6])
+
+(IDL, SEND[Message, 9])
+(IDL, SENT[Message, 9])
+
+(LST, SEND[Message, 9])
+(SIL, SENT[Message, 9])
+
+(SEND[Message, 3], SEND[Message, 9])
+(SENT[Message, 3], SENT[Message, 9])
+
+(SEND![Message, 3], SEND[Message, 9])
+(SENT[Message, 3], SENT[Message, 9])
+
+(SEND[Message, 6], SEND[Message, 9])
+(SENT[Message, 6], SENT[Message, 9])
+
+(SEND![Message, 6], SEND[Message, 9])
+(SENT[Message, 6], SENT[Message, 9])
+
+(SEND[Message, 9], SEND[Message, 9])
+(SENT[Message, 9], SENT[Message, 9])
+
+(SEND![Message, 9], SEND[Message, 9])
+(SENT[Message, 9], SENT[Message, 9])
+
+(IDL, SEND![Message, 9])
+(IDL, SENT[Message, 9])
+
+(LST, SEND![Message, 9])
+(SIL, SENT[Message, 9])
+
+(SEND[Message, 3], SEND![Message, 9])
+(SENT[Message, 3], SENT[Message, 9])
+
+(SEND![Message, 3], SEND![Message, 9])
+(SENT[Message, 3], SENT[Message, 9])
+
+(SEND[Message, 6], SEND![Message, 9])
+(SENT[Message, 6], SENT[Message, 9])
+
+(SEND![Message, 6], SEND![Message, 9])
+(SENT[Message, 6], SENT[Message, 9])
+
+(SEND[Message, 9], SEND![Message, 9])
+(SENT[Message, 9], SENT[Message, 9])
+
+(SEND![Message, 9], SEND![Message, 9])
+(SENT[Message, 9], SENT[Message, 9])

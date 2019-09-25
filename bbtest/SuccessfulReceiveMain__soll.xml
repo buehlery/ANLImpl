@@ -1,0 +1,55 @@
+# Ensure that there are two slot with one tic.
+<slotcount>2</slotcount>
+<ticsperslot>1</ticsperslot>
+
+# Ensure that the two components are present.
+<component id="EchoClient">
+<component id="EchoServer">
+
+# Ensure that the topology allows EchoClient -> EchoServer and vice versa.
+<topology>
+  <edge>
+    <from>EchoClient</from>
+    <to>EchoServer</to>
+  <edge>
+    <from>EchoServer</from>
+    <to>EchoClient</to>
+</topology>
+
+# Ensure that the intentions in the first slot are Client(SEND), Server(LISTEN).
+<intention>
+  <for>EchoClient</for>
+    <type>SEND</type>
+    <tic>0</tic>
+  <for>EchoServer</for>
+    <type>LST</type>
+</intention>
+
+# Ensure that the result of the slot is the understood message.
+<result>
+  <for>EchoClient</for>
+    <type>SENT</type>
+    <tic>0</tic>
+  <for>EchoServer</for>
+    <type>RCVD</type>
+    <tic>0</tic>
+</result>
+
+# Ensure that the intentions in the next slot are Client(LISTEN), Server(SEND).
+<intention>
+  <for>EchoClient</for>
+    <type>LST</type>
+  <for>EchoServer</for>
+    <type>SEND</type>
+    <tic>0</tic>
+</intention>
+
+# Ensure that the result of the slot is a sent and received message.
+<result>
+  <for>EchoClient</for>
+    <type>RCVD</type>
+    <tic>0</tic>
+  <for>EchoServer</for>
+    <type>SENT</type>
+    <tic>0</tic>
+</result>

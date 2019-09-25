@@ -1,0 +1,859 @@
+# Starting simulation with 120 slots `a 25 tics.
+# The following components will be used in the following order:
+#  - CentralUnit
+#  - Repeater1
+#  - Repeater2
+#  - Repeater3
+#  - Repeater4
+#  - Repeater5
+#  - Sensor0
+#  - Sensor1
+#  - Sensor2
+#  - Sensor3
+#  - Sensor4
+#  - Sensor5
+#  - Sensor6
+#  - Sensor7
+#  - Sensor8
+#  - Sensor9
+
+# Beginning simulation of slot 0.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, SEND[ALARM[Sensor0>Repeater5: Sensor0], 8], SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], SEND[ALARM[Sensor2>Repeater5: Sensor2], 8], SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], SEND[ALARM[Sensor4>Repeater5: Sensor4], 8], SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], SEND[ALARM[Sensor6>Repeater5: Sensor6], 8], SEND[ALARM[Sensor7>Repeater5: Sensor7], 8], SEND[ALARM[Sensor8>Repeater5: Sensor8], 8], SEND[ALARM[Sensor9>Repeater5: Sensor9], 8])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, SENT[ALARM[Sensor0>Repeater5: Sensor0], 8], SENT[ALARM[Sensor1>Repeater5: Sensor1], 8], SENT[ALARM[Sensor2>Repeater5: Sensor2], 8], SENT[ALARM[Sensor3>Repeater5: Sensor3], 8], SENT[ALARM[Sensor4>Repeater5: Sensor4], 8], SENT[ALARM[Sensor5>Repeater5: Sensor5], 8], SENT[ALARM[Sensor6>Repeater5: Sensor6], 8], SENT[ALARM[Sensor7>Repeater5: Sensor7], 8], SENT[ALARM[Sensor8>Repeater5: Sensor8], 8], SENT[ALARM[Sensor9>Repeater5: Sensor9], 8])
+
+# Beginning simulation of slot 1.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, LST, LST, LST, LST, LST, LST, LST, LST, LST, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL)
+
+# Beginning simulation of slot 2.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, SEND[ALARM[Sensor0>Repeater5: Sensor0], 8], SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], SEND[ALARM[Sensor2>Repeater5: Sensor2], 8], SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], SEND[ALARM[Sensor4>Repeater5: Sensor4], 8], SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], SEND[ALARM[Sensor6>Repeater5: Sensor6], 8], SEND[ALARM[Sensor7>Repeater5: Sensor7], 8], SEND[ALARM[Sensor8>Repeater5: Sensor8], 8], SEND[ALARM[Sensor9>Repeater5: Sensor9], 8])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, SENT[ALARM[Sensor0>Repeater5: Sensor0], 8], SENT[ALARM[Sensor1>Repeater5: Sensor1], 8], SENT[ALARM[Sensor2>Repeater5: Sensor2], 8], SENT[ALARM[Sensor3>Repeater5: Sensor3], 8], SENT[ALARM[Sensor4>Repeater5: Sensor4], 8], SENT[ALARM[Sensor5>Repeater5: Sensor5], 8], SENT[ALARM[Sensor6>Repeater5: Sensor6], 8], SENT[ALARM[Sensor7>Repeater5: Sensor7], 8], SENT[ALARM[Sensor8>Repeater5: Sensor8], 8], SENT[ALARM[Sensor9>Repeater5: Sensor9], 8])
+
+# Beginning simulation of slot 3.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, LST, LST, LST, LST, LST, LST, LST, LST, LST, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL)
+
+# Beginning simulation of slot 4.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, SEND[ALARM[Sensor0>Repeater5: Sensor0], 7], SEND[ALARM[Sensor1>Repeater5: Sensor1], 7], SEND[ALARM[Sensor2>Repeater5: Sensor2], 7], SEND[ALARM[Sensor3>Repeater5: Sensor3], 7], SEND[ALARM[Sensor4>Repeater5: Sensor4], 7], SEND[ALARM[Sensor5>Repeater5: Sensor5], 7], SEND[ALARM[Sensor6>Repeater5: Sensor6], 7], SEND[ALARM[Sensor7>Repeater5: Sensor7], 7], SEND[ALARM[Sensor8>Repeater5: Sensor8], 7], SEND[ALARM[Sensor9>Repeater5: Sensor9], 7])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, SENT[ALARM[Sensor0>Repeater5: Sensor0], 7], SENT[ALARM[Sensor1>Repeater5: Sensor1], 7], SENT[ALARM[Sensor2>Repeater5: Sensor2], 7], SENT[ALARM[Sensor3>Repeater5: Sensor3], 7], SENT[ALARM[Sensor4>Repeater5: Sensor4], 7], SENT[ALARM[Sensor5>Repeater5: Sensor5], 7], SENT[ALARM[Sensor6>Repeater5: Sensor6], 7], SENT[ALARM[Sensor7>Repeater5: Sensor7], 7], SENT[ALARM[Sensor8>Repeater5: Sensor8], 7], SENT[ALARM[Sensor9>Repeater5: Sensor9], 7])
+
+# Beginning simulation of slot 5.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, LST, LST, LST, LST, LST, LST, LST, LST, LST, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL)
+
+# Beginning simulation of slot 6.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, SEND[ALARM[Sensor0>Repeater5: Sensor0], 6], SEND[ALARM[Sensor1>Repeater5: Sensor1], 6], SEND[ALARM[Sensor2>Repeater5: Sensor2], 6], SEND[ALARM[Sensor3>Repeater5: Sensor3], 6], SEND[ALARM[Sensor4>Repeater5: Sensor4], 6], SEND[ALARM[Sensor5>Repeater5: Sensor5], 6], SEND[ALARM[Sensor6>Repeater5: Sensor6], 6], SEND[ALARM[Sensor7>Repeater5: Sensor7], 6], SEND[ALARM[Sensor8>Repeater5: Sensor8], 6], SEND[ALARM[Sensor9>Repeater5: Sensor9], 6])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, SENT[ALARM[Sensor0>Repeater5: Sensor0], 6], SENT[ALARM[Sensor1>Repeater5: Sensor1], 6], SENT[ALARM[Sensor2>Repeater5: Sensor2], 6], SENT[ALARM[Sensor3>Repeater5: Sensor3], 6], SENT[ALARM[Sensor4>Repeater5: Sensor4], 6], SENT[ALARM[Sensor5>Repeater5: Sensor5], 6], SENT[ALARM[Sensor6>Repeater5: Sensor6], 6], SENT[ALARM[Sensor7>Repeater5: Sensor7], 6], SENT[ALARM[Sensor8>Repeater5: Sensor8], 6], SENT[ALARM[Sensor9>Repeater5: Sensor9], 6])
+
+# Beginning simulation of slot 7.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, LST, LST, LST, LST, LST, LST, LST, LST, LST, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL)
+
+# Beginning simulation of slot 8.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, SEND[ALARM[Sensor0>Repeater5: Sensor0], 5], SEND[ALARM[Sensor1>Repeater5: Sensor1], 5], SEND[ALARM[Sensor2>Repeater5: Sensor2], 5], SEND[ALARM[Sensor3>Repeater5: Sensor3], 5], SEND[ALARM[Sensor4>Repeater5: Sensor4], 5], SEND[ALARM[Sensor5>Repeater5: Sensor5], 5], SEND[ALARM[Sensor6>Repeater5: Sensor6], 5], SEND[ALARM[Sensor7>Repeater5: Sensor7], 5], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, SENT[ALARM[Sensor0>Repeater5: Sensor0], 5], SENT[ALARM[Sensor1>Repeater5: Sensor1], 5], SENT[ALARM[Sensor2>Repeater5: Sensor2], 5], SENT[ALARM[Sensor3>Repeater5: Sensor3], 5], SENT[ALARM[Sensor4>Repeater5: Sensor4], 5], SENT[ALARM[Sensor5>Repeater5: Sensor5], 5], SENT[ALARM[Sensor6>Repeater5: Sensor6], 5], SENT[ALARM[Sensor7>Repeater5: Sensor7], 5], SENT[ALARM[Sensor8>Repeater5: Sensor8], 5], SENT[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 9.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, LST, LST, LST, LST, LST, LST, LST, LST, LST, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL)
+
+# Beginning simulation of slot 10.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, SEND[ALARM[Sensor0>Repeater5: Sensor0], 4], SEND[ALARM[Sensor1>Repeater5: Sensor1], 4], SEND[ALARM[Sensor2>Repeater5: Sensor2], 4], SEND[ALARM[Sensor3>Repeater5: Sensor3], 4], SEND[ALARM[Sensor4>Repeater5: Sensor4], 4], SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, SENT[ALARM[Sensor0>Repeater5: Sensor0], 4], SENT[ALARM[Sensor1>Repeater5: Sensor1], 4], SENT[ALARM[Sensor2>Repeater5: Sensor2], 4], SENT[ALARM[Sensor3>Repeater5: Sensor3], 4], SENT[ALARM[Sensor4>Repeater5: Sensor4], 4], SENT[ALARM[Sensor5>Repeater5: Sensor5], 4], SENT[ALARM[Sensor6>Repeater5: Sensor6], 4], SENT[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 11.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, LST, LST, LST, LST, LST, LST, LST, LST, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, SIL, IDL, IDL)
+
+# Beginning simulation of slot 12.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, SEND[ALARM[Sensor0>Repeater5: Sensor0], 3], SEND[ALARM[Sensor1>Repeater5: Sensor1], 3], SEND[ALARM[Sensor2>Repeater5: Sensor2], 3], SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], SEND[ALARM[Sensor4>Repeater5: Sensor4], 4], SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, SENT[ALARM[Sensor0>Repeater5: Sensor0], 3], SENT[ALARM[Sensor1>Repeater5: Sensor1], 3], SENT[ALARM[Sensor2>Repeater5: Sensor2], 3], SENT[ALARM[Sensor3>Repeater5: Sensor3], 3], CCLD[ALARM[Sensor4>Repeater5: Sensor4], 4], CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 13.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, LST, LST, LST, LST, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL, SIL, SIL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 14.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, SEND[ALARM[Sensor0>Repeater5: Sensor0], 2], SEND[ALARM[Sensor1>Repeater5: Sensor1], 2], SEND[ALARM[Sensor2>Repeater5: Sensor2], 3], SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], SEND[ALARM[Sensor4>Repeater5: Sensor4], 4], SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, SENT[ALARM[Sensor0>Repeater5: Sensor0], 2], SENT[ALARM[Sensor1>Repeater5: Sensor1], 2], CCLD[ALARM[Sensor2>Repeater5: Sensor2], 3], CCLD[ALARM[Sensor3>Repeater5: Sensor3], 3], CCLD[ALARM[Sensor4>Repeater5: Sensor4], 4], CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 15.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, LST, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 16.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, SEND[ALARM[Sensor0>Repeater5: Sensor0], 1], SEND[ALARM[Sensor1>Repeater5: Sensor1], 2], SEND[ALARM[Sensor2>Repeater5: Sensor2], 3], SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], SEND[ALARM[Sensor4>Repeater5: Sensor4], 4], SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, RCVD[ALARM[Sensor0>Repeater5: Sensor0], 1], SENT[ALARM[Sensor0>Repeater5: Sensor0], 1], CCLD[ALARM[Sensor1>Repeater5: Sensor1], 2], CCLD[ALARM[Sensor2>Repeater5: Sensor2], 3], CCLD[ALARM[Sensor3>Repeater5: Sensor3], 3], CCLD[ALARM[Sensor4>Repeater5: Sensor4], 4], CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 17.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, SEND![ACK[Repeater5>Sensor0: Sensor0], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, SENT[ACK[Repeater5>Sensor0: Sensor0], 0], RCVD[ACK[Repeater5>Sensor0: Sensor0], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 18.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, SEND[ALARM[Repeater5>Repeater4: Sensor0], 0], IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 2], SEND[ALARM[Sensor2>Repeater5: Sensor2], 3], SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], SEND[ALARM[Sensor4>Repeater5: Sensor4], 4], SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, RCVD[ALARM[Repeater5>Repeater4: Sensor0], 0], SENT[ALARM[Repeater5>Repeater4: Sensor0], 0], IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 2], CCLD[ALARM[Sensor2>Repeater5: Sensor2], 3], CCLD[ALARM[Sensor3>Repeater5: Sensor3], 3], CCLD[ALARM[Sensor4>Repeater5: Sensor4], 4], CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 19.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, SEND![ACK[Repeater4>Repeater5: Sensor0], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, SENT[ACK[Repeater4>Repeater5: Sensor0], 0], RCVD[ACK[Repeater4>Repeater5: Sensor0], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 20.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, SEND[ALARM[Repeater4>Repeater3: Sensor0], 0], LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 2], SEND[ALARM[Sensor2>Repeater5: Sensor2], 3], SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], SEND[ALARM[Sensor4>Repeater5: Sensor4], 4], SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, RCVD[ALARM[Repeater4>Repeater3: Sensor0], 0], SENT[ALARM[Repeater4>Repeater3: Sensor0], 0], COL, IDL, SENT[ALARM[Sensor1>Repeater5: Sensor1], 2], CCLD[ALARM[Sensor2>Repeater5: Sensor2], 3], CCLD[ALARM[Sensor3>Repeater5: Sensor3], 3], CCLD[ALARM[Sensor4>Repeater5: Sensor4], 4], CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 21.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, SEND![ACK[Repeater3>Repeater4: Sensor0], 0], LST, IDL, IDL, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, SENT[ACK[Repeater3>Repeater4: Sensor0], 0], RCVD[ACK[Repeater3>Repeater4: Sensor0], 0], IDL, IDL, SIL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 22.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, SEND[ALARM[Repeater3>Repeater2: Sensor0], 0], LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], SEND[ALARM[Sensor2>Repeater5: Sensor2], 3], SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], SEND[ALARM[Sensor4>Repeater5: Sensor4], 4], SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, RCVD[ALARM[Repeater3>Repeater2: Sensor0], 0], SENT[ALARM[Repeater3>Repeater2: Sensor0], 0], RCVD[ALARM[Repeater3>Repeater2: Sensor0], 0], COL, IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], SENT[ALARM[Sensor2>Repeater5: Sensor2], 3], SENT[ALARM[Sensor3>Repeater5: Sensor3], 3], CCLD[ALARM[Sensor4>Repeater5: Sensor4], 4], CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 23.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, SEND![ACK[Repeater2>Repeater3: Sensor0], 0], LST, IDL, IDL, IDL, IDL, LST, LST, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, SENT[ACK[Repeater2>Repeater3: Sensor0], 0], RCVD[ACK[Repeater2>Repeater3: Sensor0], 0], IDL, IDL, IDL, IDL, SIL, SIL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 24.
+# Protocol executed. Chosen intentions:
+(LST, LST, SEND[ALARM[Repeater2>Repeater1: Sensor0], 0], LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], SEND[ALARM[Sensor2>Repeater5: Sensor2], 2], SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], SEND[ALARM[Sensor4>Repeater5: Sensor4], 4], SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, RCVD[ALARM[Repeater2>Repeater1: Sensor0], 0], SENT[ALARM[Repeater2>Repeater1: Sensor0], 0], RCVD[ALARM[Repeater2>Repeater1: Sensor0], 0], SIL, RCVD[ALARM[Sensor2>Repeater5: Sensor2], 2], IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], SENT[ALARM[Sensor2>Repeater5: Sensor2], 2], CCLD[ALARM[Sensor3>Repeater5: Sensor3], 3], CCLD[ALARM[Sensor4>Repeater5: Sensor4], 4], CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 25.
+# Protocol executed. Chosen intentions:
+(IDL, SEND![ACK[Repeater1>Repeater2: Sensor0], 0], LST, IDL, IDL, SEND![ACK[Repeater5>Sensor2: Sensor2], 0], IDL, IDL, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, SENT[ACK[Repeater1>Repeater2: Sensor0], 0], RCVD[ACK[Repeater1>Repeater2: Sensor0], 0], IDL, IDL, SENT[ACK[Repeater5>Sensor2: Sensor2], 0], IDL, IDL, RCVD[ACK[Repeater5>Sensor2: Sensor2], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 26.
+# Protocol executed. Chosen intentions:
+(LST, SEND[ALARM[Repeater1>CentralUnit: Sensor0], 0], LST, LST, LST, SEND[ALARM[Repeater5>Repeater4: Sensor2], 0], IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], SEND[ALARM[Sensor4>Repeater5: Sensor4], 4], SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(RCVD[ALARM[Repeater1>CentralUnit: Sensor0], 0], SENT[ALARM[Repeater1>CentralUnit: Sensor0], 0], RCVD[ALARM[Repeater1>CentralUnit: Sensor0], 0], SIL, RCVD[ALARM[Repeater5>Repeater4: Sensor2], 0], SENT[ALARM[Repeater5>Repeater4: Sensor2], 0], IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 3], CCLD[ALARM[Sensor4>Repeater5: Sensor4], 4], CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 27.
+# Protocol executed. Chosen intentions:
+(SEND![ACK[CentralUnit>Repeater1: Sensor0], 0], LST, IDL, IDL, SEND![ACK[Repeater4>Repeater5: Sensor2], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SENT[ACK[CentralUnit>Repeater1: Sensor0], 0], RCVD[ACK[CentralUnit>Repeater1: Sensor0], 0], IDL, IDL, SENT[ACK[Repeater4>Repeater5: Sensor2], 0], RCVD[ACK[Repeater4>Repeater5: Sensor2], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 28.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, SEND[ALARM[Repeater4>Repeater3: Sensor2], 0], LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], SEND[ALARM[Sensor4>Repeater5: Sensor4], 4], SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, RCVD[ALARM[Repeater4>Repeater3: Sensor2], 0], SENT[ALARM[Repeater4>Repeater3: Sensor2], 0], COL, IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SENT[ALARM[Sensor3>Repeater5: Sensor3], 3], CCLD[ALARM[Sensor4>Repeater5: Sensor4], 4], CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 29.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, SEND![ACK[Repeater3>Repeater4: Sensor2], 0], LST, IDL, IDL, IDL, IDL, LST, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, SENT[ACK[Repeater3>Repeater4: Sensor2], 0], RCVD[ACK[Repeater3>Repeater4: Sensor2], 0], IDL, IDL, IDL, IDL, SIL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 30.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, SEND[ALARM[Repeater3>Repeater2: Sensor2], 0], LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], SEND[ALARM[Sensor4>Repeater5: Sensor4], 4], SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, RCVD[ALARM[Repeater3>Repeater2: Sensor2], 0], SENT[ALARM[Repeater3>Repeater2: Sensor2], 0], RCVD[ALARM[Repeater3>Repeater2: Sensor2], 0], COL, IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], SENT[ALARM[Sensor4>Repeater5: Sensor4], 4], SENT[ALARM[Sensor5>Repeater5: Sensor5], 4], SENT[ALARM[Sensor6>Repeater5: Sensor6], 4], SENT[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 31.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, SEND![ACK[Repeater2>Repeater3: Sensor2], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, LST, LST, LST, LST, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, SENT[ACK[Repeater2>Repeater3: Sensor2], 0], RCVD[ACK[Repeater2>Repeater3: Sensor2], 0], IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL, SIL, SIL, IDL, IDL)
+
+# Beginning simulation of slot 32.
+# Protocol executed. Chosen intentions:
+(LST, LST, SEND[ALARM[Repeater2>Repeater1: Sensor2], 0], LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], SEND[ALARM[Sensor4>Repeater5: Sensor4], 3], SEND[ALARM[Sensor5>Repeater5: Sensor5], 3], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, RCVD[ALARM[Repeater2>Repeater1: Sensor2], 0], SENT[ALARM[Repeater2>Repeater1: Sensor2], 0], RCVD[ALARM[Repeater2>Repeater1: Sensor2], 0], SIL, COL, IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], SENT[ALARM[Sensor4>Repeater5: Sensor4], 3], SENT[ALARM[Sensor5>Repeater5: Sensor5], 3], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 33.
+# Protocol executed. Chosen intentions:
+(IDL, SEND![ACK[Repeater1>Repeater2: Sensor2], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, LST, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, SENT[ACK[Repeater1>Repeater2: Sensor2], 0], RCVD[ACK[Repeater1>Repeater2: Sensor2], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 34.
+# Protocol executed. Chosen intentions:
+(LST, SEND[ALARM[Repeater1>CentralUnit: Sensor2], 0], LST, LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], SEND[ALARM[Sensor4>Repeater5: Sensor4], 2], SEND[ALARM[Sensor5>Repeater5: Sensor5], 3], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(RCVD[ALARM[Repeater1>CentralUnit: Sensor2], 0], SENT[ALARM[Repeater1>CentralUnit: Sensor2], 0], RCVD[ALARM[Repeater1>CentralUnit: Sensor2], 0], SIL, SIL, RCVD[ALARM[Sensor4>Repeater5: Sensor4], 2], IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], SENT[ALARM[Sensor4>Repeater5: Sensor4], 2], CCLD[ALARM[Sensor5>Repeater5: Sensor5], 3], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 35.
+# Protocol executed. Chosen intentions:
+(SEND![ACK[CentralUnit>Repeater1: Sensor2], 0], LST, IDL, IDL, IDL, SEND![ACK[Repeater5>Sensor4: Sensor4], 0], IDL, IDL, IDL, IDL, LST, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SENT[ACK[CentralUnit>Repeater1: Sensor2], 0], RCVD[ACK[CentralUnit>Repeater1: Sensor2], 0], IDL, IDL, IDL, SENT[ACK[Repeater5>Sensor4: Sensor4], 0], IDL, IDL, IDL, IDL, RCVD[ACK[Repeater5>Sensor4: Sensor4], 0], IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 36.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, SEND[ALARM[Repeater5>Repeater4: Sensor4], 0], IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 3], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, RCVD[ALARM[Repeater5>Repeater4: Sensor4], 0], SENT[ALARM[Repeater5>Repeater4: Sensor4], 0], IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 3], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 37.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, SEND![ACK[Repeater4>Repeater5: Sensor4], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, SENT[ACK[Repeater4>Repeater5: Sensor4], 0], RCVD[ACK[Repeater4>Repeater5: Sensor4], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 38.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, SEND[ALARM[Repeater4>Repeater3: Sensor4], 0], LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 3], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, RCVD[ALARM[Repeater4>Repeater3: Sensor4], 0], SENT[ALARM[Repeater4>Repeater3: Sensor4], 0], COL, IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SENT[ALARM[Sensor5>Repeater5: Sensor5], 3], CCLD[ALARM[Sensor6>Repeater5: Sensor6], 4], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 39.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, SEND![ACK[Repeater3>Repeater4: Sensor4], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, LST, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, SENT[ACK[Repeater3>Repeater4: Sensor4], 0], RCVD[ACK[Repeater3>Repeater4: Sensor4], 0], IDL, IDL, IDL, IDL, IDL, IDL, SIL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 40.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, SEND[ALARM[Repeater3>Repeater2: Sensor4], 0], LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], SEND[ALARM[Sensor6>Repeater5: Sensor6], 4], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, RCVD[ALARM[Repeater3>Repeater2: Sensor4], 0], SENT[ALARM[Repeater3>Repeater2: Sensor4], 0], RCVD[ALARM[Repeater3>Repeater2: Sensor4], 0], COL, IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 8], SENT[ALARM[Sensor6>Repeater5: Sensor6], 4], SENT[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 41.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, SEND![ACK[Repeater2>Repeater3: Sensor4], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, LST, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, SENT[ACK[Repeater2>Repeater3: Sensor4], 0], RCVD[ACK[Repeater2>Repeater3: Sensor4], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL, IDL, IDL)
+
+# Beginning simulation of slot 42.
+# Protocol executed. Chosen intentions:
+(LST, LST, SEND[ALARM[Repeater2>Repeater1: Sensor4], 0], LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], SEND[ALARM[Sensor6>Repeater5: Sensor6], 3], SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, RCVD[ALARM[Repeater2>Repeater1: Sensor4], 0], SENT[ALARM[Repeater2>Repeater1: Sensor4], 0], RCVD[ALARM[Repeater2>Repeater1: Sensor4], 0], SIL, RCVD[ALARM[Sensor6>Repeater5: Sensor6], 3], IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 8], SENT[ALARM[Sensor6>Repeater5: Sensor6], 3], CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 43.
+# Protocol executed. Chosen intentions:
+(IDL, SEND![ACK[Repeater1>Repeater2: Sensor4], 0], LST, IDL, IDL, SEND![ACK[Repeater5>Sensor6: Sensor6], 0], IDL, IDL, IDL, IDL, IDL, IDL, LST, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, SENT[ACK[Repeater1>Repeater2: Sensor4], 0], RCVD[ACK[Repeater1>Repeater2: Sensor4], 0], IDL, IDL, SENT[ACK[Repeater5>Sensor6: Sensor6], 0], IDL, IDL, IDL, IDL, IDL, IDL, RCVD[ACK[Repeater5>Sensor6: Sensor6], 0], IDL, IDL, IDL)
+
+# Beginning simulation of slot 44.
+# Protocol executed. Chosen intentions:
+(LST, SEND[ALARM[Repeater1>CentralUnit: Sensor4], 0], LST, LST, LST, SEND[ALARM[Repeater5>Repeater4: Sensor6], 0], IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(RCVD[ALARM[Repeater1>CentralUnit: Sensor4], 0], SENT[ALARM[Repeater1>CentralUnit: Sensor4], 0], RCVD[ALARM[Repeater1>CentralUnit: Sensor4], 0], SIL, RCVD[ALARM[Repeater5>Repeater4: Sensor6], 0], SENT[ALARM[Repeater5>Repeater4: Sensor6], 0], IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 45.
+# Protocol executed. Chosen intentions:
+(SEND![ACK[CentralUnit>Repeater1: Sensor4], 0], LST, IDL, IDL, SEND![ACK[Repeater4>Repeater5: Sensor6], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SENT[ACK[CentralUnit>Repeater1: Sensor4], 0], RCVD[ACK[CentralUnit>Repeater1: Sensor4], 0], IDL, IDL, SENT[ACK[Repeater4>Repeater5: Sensor6], 0], RCVD[ACK[Repeater4>Repeater5: Sensor6], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 46.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, SEND[ALARM[Repeater4>Repeater3: Sensor6], 0], LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, RCVD[ALARM[Repeater4>Repeater3: Sensor6], 0], SENT[ALARM[Repeater4>Repeater3: Sensor6], 0], COL, IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SENT[ALARM[Sensor7>Repeater5: Sensor7], 4], CCLD[ALARM[Sensor8>Repeater5: Sensor8], 5], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 47.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, SEND![ACK[Repeater3>Repeater4: Sensor6], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, SENT[ACK[Repeater3>Repeater4: Sensor6], 0], RCVD[ACK[Repeater3>Repeater4: Sensor6], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL, IDL, IDL)
+
+# Beginning simulation of slot 48.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, SEND[ALARM[Repeater3>Repeater2: Sensor6], 0], LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 8], SEND[ALARM[Sensor8>Repeater5: Sensor8], 5], SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, RCVD[ALARM[Repeater3>Repeater2: Sensor6], 0], SENT[ALARM[Repeater3>Repeater2: Sensor6], 0], RCVD[ALARM[Repeater3>Repeater2: Sensor6], 0], COL, IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 8], SENT[ALARM[Sensor8>Repeater5: Sensor8], 5], SENT[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 49.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, SEND![ACK[Repeater2>Repeater3: Sensor6], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, SENT[ACK[Repeater2>Repeater3: Sensor6], 0], RCVD[ACK[Repeater2>Repeater3: Sensor6], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL)
+
+# Beginning simulation of slot 50.
+# Protocol executed. Chosen intentions:
+(LST, LST, SEND[ALARM[Repeater2>Repeater1: Sensor6], 0], LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 8], SEND[ALARM[Sensor8>Repeater5: Sensor8], 4], SEND[ALARM[Sensor9>Repeater5: Sensor9], 4])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, RCVD[ALARM[Repeater2>Repeater1: Sensor6], 0], SENT[ALARM[Repeater2>Repeater1: Sensor6], 0], RCVD[ALARM[Repeater2>Repeater1: Sensor6], 0], SIL, COL, IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 8], SENT[ALARM[Sensor8>Repeater5: Sensor8], 4], SENT[ALARM[Sensor9>Repeater5: Sensor9], 4])
+
+# Beginning simulation of slot 51.
+# Protocol executed. Chosen intentions:
+(IDL, SEND![ACK[Repeater1>Repeater2: Sensor6], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, SENT[ACK[Repeater1>Repeater2: Sensor6], 0], RCVD[ACK[Repeater1>Repeater2: Sensor6], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL)
+
+# Beginning simulation of slot 52.
+# Protocol executed. Chosen intentions:
+(LST, SEND[ALARM[Repeater1>CentralUnit: Sensor6], 0], LST, LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 8], SEND[ALARM[Sensor8>Repeater5: Sensor8], 3], SEND[ALARM[Sensor9>Repeater5: Sensor9], 3])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(RCVD[ALARM[Repeater1>CentralUnit: Sensor6], 0], SENT[ALARM[Repeater1>CentralUnit: Sensor6], 0], RCVD[ALARM[Repeater1>CentralUnit: Sensor6], 0], SIL, SIL, COL, IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 8], SENT[ALARM[Sensor8>Repeater5: Sensor8], 3], SENT[ALARM[Sensor9>Repeater5: Sensor9], 3])
+
+# Beginning simulation of slot 53.
+# Protocol executed. Chosen intentions:
+(SEND![ACK[CentralUnit>Repeater1: Sensor6], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SENT[ACK[CentralUnit>Repeater1: Sensor6], 0], RCVD[ACK[CentralUnit>Repeater1: Sensor6], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL, SIL)
+
+# Beginning simulation of slot 54.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 8], SEND[ALARM[Sensor8>Repeater5: Sensor8], 2], SEND[ALARM[Sensor9>Repeater5: Sensor9], 3])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, RCVD[ALARM[Sensor8>Repeater5: Sensor8], 2], IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 8], SENT[ALARM[Sensor8>Repeater5: Sensor8], 2], CCLD[ALARM[Sensor9>Repeater5: Sensor9], 3])
+
+# Beginning simulation of slot 55.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, SEND![ACK[Repeater5>Sensor8: Sensor8], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, SENT[ACK[Repeater5>Sensor8: Sensor8], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, RCVD[ACK[Repeater5>Sensor8: Sensor8], 0], IDL)
+
+# Beginning simulation of slot 56.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, SEND[ALARM[Repeater5>Repeater4: Sensor8], 0], IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 8], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 3])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, RCVD[ALARM[Repeater5>Repeater4: Sensor8], 0], SENT[ALARM[Repeater5>Repeater4: Sensor8], 0], IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 8], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 3])
+
+# Beginning simulation of slot 57.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, SEND![ACK[Repeater4>Repeater5: Sensor8], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, SENT[ACK[Repeater4>Repeater5: Sensor8], 0], RCVD[ACK[Repeater4>Repeater5: Sensor8], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 58.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, SEND[ALARM[Repeater4>Repeater3: Sensor8], 0], LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 8], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 3])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, RCVD[ALARM[Repeater4>Repeater3: Sensor8], 0], SENT[ALARM[Repeater4>Repeater3: Sensor8], 0], COL, IDL, CCLD[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 8], IDL, SENT[ALARM[Sensor9>Repeater5: Sensor9], 3])
+
+# Beginning simulation of slot 59.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, SEND![ACK[Repeater3>Repeater4: Sensor8], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, SENT[ACK[Repeater3>Repeater4: Sensor8], 0], RCVD[ACK[Repeater3>Repeater4: Sensor8], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL)
+
+# Beginning simulation of slot 60.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, SEND[ALARM[Repeater3>Repeater2: Sensor8], 0], LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 8], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 8])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, RCVD[ALARM[Repeater3>Repeater2: Sensor8], 0], SENT[ALARM[Repeater3>Repeater2: Sensor8], 0], RCVD[ALARM[Repeater3>Repeater2: Sensor8], 0], COL, IDL, SENT[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SENT[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SENT[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SENT[ALARM[Sensor7>Repeater5: Sensor7], 8], IDL, SENT[ALARM[Sensor9>Repeater5: Sensor9], 8])
+
+# Beginning simulation of slot 61.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, SEND![ACK[Repeater2>Repeater3: Sensor8], 0], LST, IDL, IDL, IDL, LST, IDL, LST, IDL, LST, IDL, LST, IDL, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, SENT[ACK[Repeater2>Repeater3: Sensor8], 0], RCVD[ACK[Repeater2>Repeater3: Sensor8], 0], IDL, IDL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, SIL)
+
+# Beginning simulation of slot 62.
+# Protocol executed. Chosen intentions:
+(LST, LST, SEND[ALARM[Repeater2>Repeater1: Sensor8], 0], LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 8], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 8])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, RCVD[ALARM[Repeater2>Repeater1: Sensor8], 0], SENT[ALARM[Repeater2>Repeater1: Sensor8], 0], RCVD[ALARM[Repeater2>Repeater1: Sensor8], 0], SIL, COL, IDL, SENT[ALARM[Sensor1>Repeater5: Sensor1], 8], IDL, SENT[ALARM[Sensor3>Repeater5: Sensor3], 8], IDL, SENT[ALARM[Sensor5>Repeater5: Sensor5], 8], IDL, SENT[ALARM[Sensor7>Repeater5: Sensor7], 8], IDL, SENT[ALARM[Sensor9>Repeater5: Sensor9], 8])
+
+# Beginning simulation of slot 63.
+# Protocol executed. Chosen intentions:
+(IDL, SEND![ACK[Repeater1>Repeater2: Sensor8], 0], LST, IDL, IDL, IDL, IDL, LST, IDL, LST, IDL, LST, IDL, LST, IDL, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, SENT[ACK[Repeater1>Repeater2: Sensor8], 0], RCVD[ACK[Repeater1>Repeater2: Sensor8], 0], IDL, IDL, IDL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, SIL)
+
+# Beginning simulation of slot 64.
+# Protocol executed. Chosen intentions:
+(LST, SEND[ALARM[Repeater1>CentralUnit: Sensor8], 0], LST, LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 7], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 7], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 7], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 7], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 7])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(RCVD[ALARM[Repeater1>CentralUnit: Sensor8], 0], SENT[ALARM[Repeater1>CentralUnit: Sensor8], 0], RCVD[ALARM[Repeater1>CentralUnit: Sensor8], 0], SIL, SIL, COL, IDL, SENT[ALARM[Sensor1>Repeater5: Sensor1], 7], IDL, SENT[ALARM[Sensor3>Repeater5: Sensor3], 7], IDL, SENT[ALARM[Sensor5>Repeater5: Sensor5], 7], IDL, SENT[ALARM[Sensor7>Repeater5: Sensor7], 7], IDL, SENT[ALARM[Sensor9>Repeater5: Sensor9], 7])
+
+# Beginning simulation of slot 65.
+# Protocol executed. Chosen intentions:
+(SEND![ACK[CentralUnit>Repeater1: Sensor8], 0], LST, IDL, IDL, IDL, IDL, IDL, LST, IDL, LST, IDL, LST, IDL, LST, IDL, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SENT[ACK[CentralUnit>Repeater1: Sensor8], 0], RCVD[ACK[CentralUnit>Repeater1: Sensor8], 0], IDL, IDL, IDL, IDL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, SIL)
+
+# Beginning simulation of slot 66.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 6], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 6], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 6], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 6], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 6])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, IDL, SENT[ALARM[Sensor1>Repeater5: Sensor1], 6], IDL, SENT[ALARM[Sensor3>Repeater5: Sensor3], 6], IDL, SENT[ALARM[Sensor5>Repeater5: Sensor5], 6], IDL, SENT[ALARM[Sensor7>Repeater5: Sensor7], 6], IDL, SENT[ALARM[Sensor9>Repeater5: Sensor9], 6])
+
+# Beginning simulation of slot 67.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, IDL, LST, IDL, LST, IDL, LST, IDL, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, SIL)
+
+# Beginning simulation of slot 68.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 5], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 5], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 5], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 5], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, IDL, SENT[ALARM[Sensor1>Repeater5: Sensor1], 5], IDL, SENT[ALARM[Sensor3>Repeater5: Sensor3], 5], IDL, SENT[ALARM[Sensor5>Repeater5: Sensor5], 5], IDL, SENT[ALARM[Sensor7>Repeater5: Sensor7], 5], IDL, SENT[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 69.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, IDL, LST, IDL, LST, IDL, LST, IDL, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, SIL)
+
+# Beginning simulation of slot 70.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 4], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 4], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, IDL, SENT[ALARM[Sensor1>Repeater5: Sensor1], 4], IDL, SENT[ALARM[Sensor3>Repeater5: Sensor3], 4], IDL, SENT[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, SENT[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 71.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, IDL, LST, IDL, LST, IDL, LST, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, SIL, IDL, IDL)
+
+# Beginning simulation of slot 72.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 3], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, COL, IDL, SENT[ALARM[Sensor1>Repeater5: Sensor1], 3], IDL, SENT[ALARM[Sensor3>Repeater5: Sensor3], 3], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 73.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, IDL, LST, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL, IDL, SIL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 74.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, IDL, SEND[ALARM[Sensor1>Repeater5: Sensor1], 2], IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, RCVD[ALARM[Sensor1>Repeater5: Sensor1], 2], IDL, SENT[ALARM[Sensor1>Repeater5: Sensor1], 2], IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 3], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 75.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, SEND![ACK[Repeater5>Sensor1: Sensor1], 0], IDL, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, SENT[ACK[Repeater5>Sensor1: Sensor1], 0], IDL, RCVD[ACK[Repeater5>Sensor1: Sensor1], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 76.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, SEND[ALARM[Repeater5>Repeater4: Sensor1], 0], IDL, IDL, IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, RCVD[ALARM[Repeater5>Repeater4: Sensor1], 0], SENT[ALARM[Repeater5>Repeater4: Sensor1], 0], IDL, IDL, IDL, CCLD[ALARM[Sensor3>Repeater5: Sensor3], 3], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 77.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, SEND![ACK[Repeater4>Repeater5: Sensor1], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, SENT[ACK[Repeater4>Repeater5: Sensor1], 0], RCVD[ACK[Repeater4>Repeater5: Sensor1], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 78.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, SEND[ALARM[Repeater4>Repeater3: Sensor1], 0], LST, IDL, IDL, IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, RCVD[ALARM[Repeater4>Repeater3: Sensor1], 0], SENT[ALARM[Repeater4>Repeater3: Sensor1], 0], COL, IDL, IDL, IDL, SENT[ALARM[Sensor3>Repeater5: Sensor3], 3], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 79.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, SEND![ACK[Repeater3>Repeater4: Sensor1], 0], LST, IDL, IDL, IDL, IDL, LST, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, SENT[ACK[Repeater3>Repeater4: Sensor1], 0], RCVD[ACK[Repeater3>Repeater4: Sensor1], 0], IDL, IDL, IDL, IDL, SIL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 80.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, SEND[ALARM[Repeater3>Repeater2: Sensor1], 0], LST, LST, IDL, IDL, IDL, SEND[ALARM[Sensor3>Repeater5: Sensor3], 3], IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, RCVD[ALARM[Repeater3>Repeater2: Sensor1], 0], SENT[ALARM[Repeater3>Repeater2: Sensor1], 0], RCVD[ALARM[Repeater3>Repeater2: Sensor1], 0], RCVD[ALARM[Sensor3>Repeater5: Sensor3], 3], IDL, IDL, IDL, SENT[ALARM[Sensor3>Repeater5: Sensor3], 3], IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 81.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, SEND![ACK[Repeater2>Repeater3: Sensor1], 0], LST, IDL, SEND![ACK[Repeater5>Sensor3: Sensor3], 0], IDL, IDL, IDL, LST, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, SENT[ACK[Repeater2>Repeater3: Sensor1], 0], RCVD[ACK[Repeater2>Repeater3: Sensor1], 0], IDL, SENT[ACK[Repeater5>Sensor3: Sensor3], 0], IDL, IDL, IDL, RCVD[ACK[Repeater5>Sensor3: Sensor3], 0], IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 82.
+# Protocol executed. Chosen intentions:
+(LST, LST, SEND[ALARM[Repeater2>Repeater1: Sensor1], 0], LST, LST, SEND[ALARM[Repeater5>Repeater4: Sensor3], 0], IDL, IDL, IDL, IDL, IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, RCVD[ALARM[Repeater2>Repeater1: Sensor1], 0], SENT[ALARM[Repeater2>Repeater1: Sensor1], 0], RCVD[ALARM[Repeater2>Repeater1: Sensor1], 0], RCVD[ALARM[Repeater5>Repeater4: Sensor3], 0], SENT[ALARM[Repeater5>Repeater4: Sensor3], 0], IDL, IDL, IDL, IDL, IDL, CCLD[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 83.
+# Protocol executed. Chosen intentions:
+(IDL, SEND![ACK[Repeater1>Repeater2: Sensor1], 0], LST, IDL, SEND![ACK[Repeater4>Repeater5: Sensor3], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, SENT[ACK[Repeater1>Repeater2: Sensor1], 0], RCVD[ACK[Repeater1>Repeater2: Sensor1], 0], IDL, SENT[ACK[Repeater4>Repeater5: Sensor3], 0], RCVD[ACK[Repeater4>Repeater5: Sensor3], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 84.
+# Protocol executed. Chosen intentions:
+(LST, SEND[ALARM[Repeater1>CentralUnit: Sensor1], 0], LST, LST, SEND[ALARM[Repeater4>Repeater3: Sensor3], 0], LST, IDL, IDL, IDL, IDL, IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(RCVD[ALARM[Repeater1>CentralUnit: Sensor1], 0], SENT[ALARM[Repeater1>CentralUnit: Sensor1], 0], RCVD[ALARM[Repeater1>CentralUnit: Sensor1], 0], RCVD[ALARM[Repeater4>Repeater3: Sensor3], 0], SENT[ALARM[Repeater4>Repeater3: Sensor3], 0], COL, IDL, IDL, IDL, IDL, IDL, SENT[ALARM[Sensor5>Repeater5: Sensor5], 4], IDL, SENT[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 85.
+# Protocol executed. Chosen intentions:
+(SEND![ACK[CentralUnit>Repeater1: Sensor1], 0], LST, IDL, SEND![ACK[Repeater3>Repeater4: Sensor3], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, LST, IDL, LST, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SENT[ACK[CentralUnit>Repeater1: Sensor1], 0], RCVD[ACK[CentralUnit>Repeater1: Sensor1], 0], IDL, SENT[ACK[Repeater3>Repeater4: Sensor3], 0], RCVD[ACK[Repeater3>Repeater4: Sensor3], 0], IDL, IDL, IDL, IDL, IDL, IDL, SIL, IDL, SIL, IDL, IDL)
+
+# Beginning simulation of slot 86.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, SEND[ALARM[Repeater3>Repeater2: Sensor3], 0], LST, LST, IDL, IDL, IDL, IDL, IDL, SEND[ALARM[Sensor5>Repeater5: Sensor5], 3], IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, RCVD[ALARM[Repeater3>Repeater2: Sensor3], 0], SENT[ALARM[Repeater3>Repeater2: Sensor3], 0], RCVD[ALARM[Repeater3>Repeater2: Sensor3], 0], RCVD[ALARM[Sensor5>Repeater5: Sensor5], 3], IDL, IDL, IDL, IDL, IDL, SENT[ALARM[Sensor5>Repeater5: Sensor5], 3], IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 87.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, SEND![ACK[Repeater2>Repeater3: Sensor3], 0], LST, IDL, SEND![ACK[Repeater5>Sensor5: Sensor5], 0], IDL, IDL, IDL, IDL, IDL, LST, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, SENT[ACK[Repeater2>Repeater3: Sensor3], 0], RCVD[ACK[Repeater2>Repeater3: Sensor3], 0], IDL, SENT[ACK[Repeater5>Sensor5: Sensor5], 0], IDL, IDL, IDL, IDL, IDL, RCVD[ACK[Repeater5>Sensor5: Sensor5], 0], IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 88.
+# Protocol executed. Chosen intentions:
+(LST, LST, SEND[ALARM[Repeater2>Repeater1: Sensor3], 0], LST, LST, SEND[ALARM[Repeater5>Repeater4: Sensor5], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, RCVD[ALARM[Repeater2>Repeater1: Sensor3], 0], SENT[ALARM[Repeater2>Repeater1: Sensor3], 0], RCVD[ALARM[Repeater2>Repeater1: Sensor3], 0], RCVD[ALARM[Repeater5>Repeater4: Sensor5], 0], SENT[ALARM[Repeater5>Repeater4: Sensor5], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, CCLD[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 89.
+# Protocol executed. Chosen intentions:
+(IDL, SEND![ACK[Repeater1>Repeater2: Sensor3], 0], LST, IDL, SEND![ACK[Repeater4>Repeater5: Sensor5], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, SENT[ACK[Repeater1>Repeater2: Sensor3], 0], RCVD[ACK[Repeater1>Repeater2: Sensor3], 0], IDL, SENT[ACK[Repeater4>Repeater5: Sensor5], 0], RCVD[ACK[Repeater4>Repeater5: Sensor5], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 90.
+# Protocol executed. Chosen intentions:
+(LST, SEND[ALARM[Repeater1>CentralUnit: Sensor3], 0], LST, LST, SEND[ALARM[Repeater4>Repeater3: Sensor5], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(RCVD[ALARM[Repeater1>CentralUnit: Sensor3], 0], SENT[ALARM[Repeater1>CentralUnit: Sensor3], 0], RCVD[ALARM[Repeater1>CentralUnit: Sensor3], 0], RCVD[ALARM[Repeater4>Repeater3: Sensor5], 0], SENT[ALARM[Repeater4>Repeater3: Sensor5], 0], COL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SENT[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 91.
+# Protocol executed. Chosen intentions:
+(SEND![ACK[CentralUnit>Repeater1: Sensor3], 0], LST, IDL, SEND![ACK[Repeater3>Repeater4: Sensor5], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SENT[ACK[CentralUnit>Repeater1: Sensor3], 0], RCVD[ACK[CentralUnit>Repeater1: Sensor3], 0], IDL, SENT[ACK[Repeater3>Repeater4: Sensor5], 0], RCVD[ACK[Repeater3>Repeater4: Sensor5], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL, IDL, IDL)
+
+# Beginning simulation of slot 92.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, SEND[ALARM[Repeater3>Repeater2: Sensor5], 0], LST, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SEND[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, RCVD[ALARM[Repeater3>Repeater2: Sensor5], 0], SENT[ALARM[Repeater3>Repeater2: Sensor5], 0], RCVD[ALARM[Repeater3>Repeater2: Sensor5], 0], RCVD[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, IDL, IDL, IDL, IDL, IDL, IDL, SENT[ALARM[Sensor7>Repeater5: Sensor7], 4], IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 93.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, SEND![ACK[Repeater2>Repeater3: Sensor5], 0], LST, IDL, SEND![ACK[Repeater5>Sensor7: Sensor7], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, SENT[ACK[Repeater2>Repeater3: Sensor5], 0], RCVD[ACK[Repeater2>Repeater3: Sensor5], 0], IDL, SENT[ACK[Repeater5>Sensor7: Sensor7], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, RCVD[ACK[Repeater5>Sensor7: Sensor7], 0], IDL, IDL)
+
+# Beginning simulation of slot 94.
+# Protocol executed. Chosen intentions:
+(LST, LST, SEND[ALARM[Repeater2>Repeater1: Sensor5], 0], LST, LST, SEND[ALARM[Repeater5>Repeater4: Sensor7], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, RCVD[ALARM[Repeater2>Repeater1: Sensor5], 0], SENT[ALARM[Repeater2>Repeater1: Sensor5], 0], RCVD[ALARM[Repeater2>Repeater1: Sensor5], 0], RCVD[ALARM[Repeater5>Repeater4: Sensor7], 0], SENT[ALARM[Repeater5>Repeater4: Sensor7], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, CCLD[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 95.
+# Protocol executed. Chosen intentions:
+(IDL, SEND![ACK[Repeater1>Repeater2: Sensor5], 0], LST, IDL, SEND![ACK[Repeater4>Repeater5: Sensor7], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, SENT[ACK[Repeater1>Repeater2: Sensor5], 0], RCVD[ACK[Repeater1>Repeater2: Sensor5], 0], IDL, SENT[ACK[Repeater4>Repeater5: Sensor7], 0], RCVD[ACK[Repeater4>Repeater5: Sensor7], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 96.
+# Protocol executed. Chosen intentions:
+(LST, SEND[ALARM[Repeater1>CentralUnit: Sensor5], 0], LST, LST, SEND[ALARM[Repeater4>Repeater3: Sensor7], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 5])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(RCVD[ALARM[Repeater1>CentralUnit: Sensor5], 0], SENT[ALARM[Repeater1>CentralUnit: Sensor5], 0], RCVD[ALARM[Repeater1>CentralUnit: Sensor5], 0], RCVD[ALARM[Repeater4>Repeater3: Sensor7], 0], SENT[ALARM[Repeater4>Repeater3: Sensor7], 0], COL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SENT[ALARM[Sensor9>Repeater5: Sensor9], 5])
+
+# Beginning simulation of slot 97.
+# Protocol executed. Chosen intentions:
+(SEND![ACK[CentralUnit>Repeater1: Sensor5], 0], LST, IDL, SEND![ACK[Repeater3>Repeater4: Sensor7], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SENT[ACK[CentralUnit>Repeater1: Sensor5], 0], RCVD[ACK[CentralUnit>Repeater1: Sensor5], 0], IDL, SENT[ACK[Repeater3>Repeater4: Sensor7], 0], RCVD[ACK[Repeater3>Repeater4: Sensor7], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SIL)
+
+# Beginning simulation of slot 98.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, SEND[ALARM[Repeater3>Repeater2: Sensor7], 0], LST, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SEND[ALARM[Sensor9>Repeater5: Sensor9], 4])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, RCVD[ALARM[Repeater3>Repeater2: Sensor7], 0], SENT[ALARM[Repeater3>Repeater2: Sensor7], 0], RCVD[ALARM[Repeater3>Repeater2: Sensor7], 0], RCVD[ALARM[Sensor9>Repeater5: Sensor9], 4], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, SENT[ALARM[Sensor9>Repeater5: Sensor9], 4])
+
+# Beginning simulation of slot 99.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, SEND![ACK[Repeater2>Repeater3: Sensor7], 0], LST, IDL, SEND![ACK[Repeater5>Sensor9: Sensor9], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, SENT[ACK[Repeater2>Repeater3: Sensor7], 0], RCVD[ACK[Repeater2>Repeater3: Sensor7], 0], IDL, SENT[ACK[Repeater5>Sensor9: Sensor9], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, RCVD[ACK[Repeater5>Sensor9: Sensor9], 0])
+
+# Beginning simulation of slot 100.
+# Protocol executed. Chosen intentions:
+(LST, LST, SEND[ALARM[Repeater2>Repeater1: Sensor7], 0], LST, LST, SEND[ALARM[Repeater5>Repeater4: Sensor9], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, RCVD[ALARM[Repeater2>Repeater1: Sensor7], 0], SENT[ALARM[Repeater2>Repeater1: Sensor7], 0], RCVD[ALARM[Repeater2>Repeater1: Sensor7], 0], RCVD[ALARM[Repeater5>Repeater4: Sensor9], 0], SENT[ALARM[Repeater5>Repeater4: Sensor9], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 101.
+# Protocol executed. Chosen intentions:
+(IDL, SEND![ACK[Repeater1>Repeater2: Sensor7], 0], LST, IDL, SEND![ACK[Repeater4>Repeater5: Sensor9], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, SENT[ACK[Repeater1>Repeater2: Sensor7], 0], RCVD[ACK[Repeater1>Repeater2: Sensor7], 0], IDL, SENT[ACK[Repeater4>Repeater5: Sensor9], 0], RCVD[ACK[Repeater4>Repeater5: Sensor9], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 102.
+# Protocol executed. Chosen intentions:
+(LST, SEND[ALARM[Repeater1>CentralUnit: Sensor7], 0], LST, LST, SEND[ALARM[Repeater4>Repeater3: Sensor9], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(RCVD[ALARM[Repeater1>CentralUnit: Sensor7], 0], SENT[ALARM[Repeater1>CentralUnit: Sensor7], 0], RCVD[ALARM[Repeater1>CentralUnit: Sensor7], 0], RCVD[ALARM[Repeater4>Repeater3: Sensor9], 0], SENT[ALARM[Repeater4>Repeater3: Sensor9], 0], RCVD[ALARM[Repeater4>Repeater3: Sensor9], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 103.
+# Protocol executed. Chosen intentions:
+(SEND![ACK[CentralUnit>Repeater1: Sensor7], 0], LST, IDL, SEND![ACK[Repeater3>Repeater4: Sensor9], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SENT[ACK[CentralUnit>Repeater1: Sensor7], 0], RCVD[ACK[CentralUnit>Repeater1: Sensor7], 0], IDL, SENT[ACK[Repeater3>Repeater4: Sensor9], 0], RCVD[ACK[Repeater3>Repeater4: Sensor9], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 104.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, SEND[ALARM[Repeater3>Repeater2: Sensor9], 0], LST, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, RCVD[ALARM[Repeater3>Repeater2: Sensor9], 0], SENT[ALARM[Repeater3>Repeater2: Sensor9], 0], RCVD[ALARM[Repeater3>Repeater2: Sensor9], 0], SIL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 105.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, SEND![ACK[Repeater2>Repeater3: Sensor9], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, SENT[ACK[Repeater2>Repeater3: Sensor9], 0], RCVD[ACK[Repeater2>Repeater3: Sensor9], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 106.
+# Protocol executed. Chosen intentions:
+(LST, LST, SEND[ALARM[Repeater2>Repeater1: Sensor9], 0], LST, LST, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, RCVD[ALARM[Repeater2>Repeater1: Sensor9], 0], SENT[ALARM[Repeater2>Repeater1: Sensor9], 0], RCVD[ALARM[Repeater2>Repeater1: Sensor9], 0], SIL, SIL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 107.
+# Protocol executed. Chosen intentions:
+(IDL, SEND![ACK[Repeater1>Repeater2: Sensor9], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, SENT[ACK[Repeater1>Repeater2: Sensor9], 0], RCVD[ACK[Repeater1>Repeater2: Sensor9], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 108.
+# Protocol executed. Chosen intentions:
+(LST, SEND[ALARM[Repeater1>CentralUnit: Sensor9], 0], LST, LST, LST, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(RCVD[ALARM[Repeater1>CentralUnit: Sensor9], 0], SENT[ALARM[Repeater1>CentralUnit: Sensor9], 0], RCVD[ALARM[Repeater1>CentralUnit: Sensor9], 0], SIL, SIL, SIL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 109.
+# Protocol executed. Chosen intentions:
+(SEND![ACK[CentralUnit>Repeater1: Sensor9], 0], LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SENT[ACK[CentralUnit>Repeater1: Sensor9], 0], RCVD[ACK[CentralUnit>Repeater1: Sensor9], 0], IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 110.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, SIL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 111.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 112.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, SIL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 113.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 114.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, SIL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 115.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 116.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, SIL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 117.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 118.
+# Protocol executed. Chosen intentions:
+(LST, LST, LST, LST, LST, LST, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SIL, SIL, SIL, SIL, SIL, SIL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+
+# Beginning simulation of slot 119.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+

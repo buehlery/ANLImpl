@@ -1,0 +1,98 @@
+# The situation: Four pairs of components. Component i sends in tic i.
+# Pair 1 is unconnected.
+# Pair 2 is connected prior->latter.
+# Pair 3 is connected latter->prior.
+# Pair 4 is connected in both directions.
+# No inter-pair connections exist.
+
+# Thus:
+# Pair 1: Both send
+# Pair 2: Prior sends
+# Pair 3: Both send
+# Pair 4: Prior sends
+
+# Ensure that there is only one slot with 8 tics.
+<slotcount>1</slotcount>
+<ticsperslot>8</ticsperslot>
+
+# Ensure that the three components are present.
+<component id="Comp0">
+<component id="Comp1">
+<component id="Comp2">
+<component id="Comp3">
+<component id="Comp4">
+<component id="Comp5">
+<component id="Comp6">
+<component id="Comp7">
+
+# Ensure that the topology is as stated.
+<topology>
+  <edge>
+    <from>Comp2</from>
+    <to>Comp3</to>
+  <edge>
+    <from>Comp5</from>
+    <to>Comp4</to>
+  <edge>
+    <from>Comp6</from>
+    <to>Comp7</to>
+  <edge>
+    <from>Comp7</from>
+    <to>Comp6</to>
+</topology>
+
+# Ensure that the intention for the slot is SEND for everyone.
+<intention>
+  <for>Comp0</for>
+    <type>SEND</type>
+    <tic>0</tic>
+  <for>Comp1</for>
+    <type>SEND</type>
+    <tic>1</tic>
+  <for>Comp2</for>
+    <type>SEND</type>
+    <tic>2</tic>
+  <for>Comp3</for>
+    <type>SEND</type>
+    <tic>3</tic>
+  <for>Comp4</for>
+    <type>SEND</type>
+    <tic>4</tic>
+  <for>Comp5</for>
+    <type>SEND</type>
+    <tic>5</tic>
+  <for>Comp6</for>
+    <type>SEND</type>
+    <tic>6</tic>
+  <for>Comp7</for>
+    <type>SEND</type>
+    <tic>7</tic>
+</intention>
+
+# Ensure that the result matches the prediction above.
+<result>
+  <for>Comp0</for>
+    <type>SENT</type>
+    <tic>0</tic>
+  <for>Comp1</for>
+    <type>SENT</type>
+    <tic>1</tic>
+  <for>Comp2</for>
+    <type>SENT</type>
+    <tic>2</tic>
+  <for>Comp3</for>
+    <type>CCLD</type>
+    <tic>3</tic>
+  <for>Comp4</for>
+    <type>SENT</type>
+    <tic>4</tic>
+  <for>Comp5</for>
+    <type>SENT</type>
+    <tic>5</tic>
+  <for>Comp6</for>
+    <type>SENT</type>
+    <tic>6</tic>
+  <for>Comp7</for>
+    <type>CCLD</type>
+    <tic>7</tic>
+</result>

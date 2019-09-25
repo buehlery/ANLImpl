@@ -1,0 +1,48 @@
+# Starting simulation with 5 slots `a 20 tics.
+# The following components will be used in the following order:
+#  - Leader
+#  - Inferior1
+#  - Inferior2
+#  - Inferior3
+#  - Inferior4
+#  - Inferior5
+#  - Inferior6
+#  - Inferior7
+#  - Inferior8
+#  - Inferior9
+
+# Beginning simulation of slot 0.
+# Protocol executed. Chosen intentions:
+(SEND[HALLO, 3], LST, LST, LST, LST, LST, LST, LST, LST, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(SENT[HALLO, 3], RCVD[HALLO, 3], RCVD[HALLO, 3], RCVD[HALLO, 3], SIL, SIL, SIL, SIL, SIL, SIL)
+
+# Beginning simulation of slot 1.
+# Protocol executed. Chosen intentions:
+(IDL, SEND[HALLO, 1], SEND[HALLO, 2], SEND[HALLO, 3], LST, LST, LST, LST, LST, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, SENT[HALLO, 1], SENT[HALLO, 2], CCLD[HALLO, 3], RCVD[HALLO, 1], RCVD[HALLO, 2], RCVD[HALLO, 2], SIL, SIL, SIL)
+
+# Beginning simulation of slot 2.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, SEND[HALLO, 3], SEND[HALLO, 4], SEND[HALLO, 5], SEND[HALLO, 6], LST, LST, LST)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, SENT[HALLO, 3], SENT[HALLO, 4], SENT[HALLO, 5], SENT[HALLO, 6], RCVD[HALLO, 3], RCVD[HALLO, 3], RCVD[HALLO, 4])
+
+# Beginning simulation of slot 3.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, SEND[HALLO, 7], SEND[HALLO, 8], SEND[HALLO, 9])
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, SENT[HALLO, 7], SENT[HALLO, 8], SENT[HALLO, 9])
+
+# Beginning simulation of slot 4.
+# Protocol executed. Chosen intentions:
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+# ANL returned 1 possible successor states.
+# Result chosen from possible results.
+(IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL, IDL)
+

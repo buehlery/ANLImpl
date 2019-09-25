@@ -1,0 +1,45 @@
+# Ensure that there is only one slot with 3 tics.
+<slotcount>1</slotcount>
+<ticsperslot>3</ticsperslot>
+
+# Ensure that the three components are present.
+<component id="Comp0">
+<component id="Comp1">
+<component id="Comp2">
+
+# Ensure that the topology allows Comp0 -> Comp1 -> Comp2
+<topology>
+  <edge>
+    <from>Comp0</from>
+    <to>Comp1</to>
+  <edge>
+    <from>Comp1</from>
+    <to>Comp2</to>
+</topology>
+
+# Ensure that the intention for the slot is SEND for everyone.
+<intention>
+  <for>Comp0</for>
+    <type>SEND</type>
+    <tic>0</tic>
+  <for>Comp1</for>
+    <type>SEND</type>
+    <tic>1</tic>
+  <for>Comp2</for>
+    <type>SEND</type>
+    <tic>2</tic>
+</intention>
+
+# Ensure that the result for the slot is SENT -> CCLD -> SENT as described
+#  in the report.
+<result>
+  <for>Comp0</for>
+    <type>SENT</type>
+    <tic>0</tic>
+  <for>Comp1</for>
+    <type>CCLD</type>
+    <tic>1</tic>
+  <for>Comp2</for>
+    <type>SENT</type>
+    <tic>2</tic>
+</result>
